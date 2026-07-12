@@ -1,0 +1,9 @@
+lxml>=4.9.0
+plotly>=5.15.0
+pandas>=2.0.0
+nbformat>=5.7.0
+nbclient>=0.7.0
+# kaleido >=1.0 requires a separate Chrome installation for static image export;
+# use kaleido==0.2.1 for a self-contained setup with no external dependency
+kaleido>=0.2.1
+jupyter>=1.0.0

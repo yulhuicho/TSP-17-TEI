@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Backups
+*.bak
+*~
+*.swp
+
+# Temporary output (regenerated on notebook execution)
+output/
+*.log
+
+# IDE
+.vscode/
+.idea/

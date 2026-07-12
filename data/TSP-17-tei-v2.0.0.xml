@@ -1,0 +1,2508 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE TEI SYSTEM "../schema/TSP-17-schema.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tattvasaṅgrahapañjikā chapter 17 (pratyakṣalakṣaṇaparīkṣā): TEI-Encoded
+               Reference Dataset</title>
+            <author>Yulhui Cho</author>
+         </titleStmt>
+         <editionStmt>
+            <edition n="2.0.0">Version 2.0.0, <date when="2026-07-12">12 July 2026</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Yulhui Cho</publisher>
+            <date when="2026-07-12">12 July 2026</date>
+            <idno type="URI">https://github.com/yulhuicho/TSP-17-TEI</idno>
+            <idno type="DOI">10.5281/zenodo.21321381</idno>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Text encoding and
+                  figures are licensed under a Creative Commons Attribution 4.0 International
+                  License (CC BY 4.0). Accompanying code is licensed under the MIT License; see the
+                  LICENSE file in the repository.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl xml:id="PV">
+                  <title>Pramāṇavārttika</title>
+                  <author key="#Dharmakīrti">Dharmakīrti</author>
+               </bibl>
+               <bibl xml:id="PVin">
+                  <title>Pramāṇaviniścaya</title>
+                  <author key="#Dharmakīrti">Dharmakīrti</author>
+               </bibl>
+               <bibl xml:id="PVP">
+                  <title>Pramāṇavārttikapañjikā</title>
+                  <author key="#Devendrabuddhi">Devendrabuddhi</author>
+               </bibl>
+               <bibl xml:id="HB">
+                  <title>Hetubindu</title>
+                  <author key="#Dharmakīrti">Dharmakīrti</author>
+               </bibl>
+               <bibl xml:id="PS">
+                  <title>Pramāṇasamuccaya</title>
+                  <author key="#Dignāga">Dignāga</author>
+               </bibl>
+               <bibl xml:id="PSV">
+                  <title>Pramāṇasamuccayavṛtti</title>
+                  <author key="#Dignāga">Dignāga</author>
+               </bibl>
+               <bibl xml:id="NMukh">
+                  <title>Nyāyamukha</title>
+                  <author key="#Dignāga">Dignāga</author>
+               </bibl>
+               <bibl xml:id="NB">
+                  <title>Nyāyabindu</title>
+                  <author key="#Dharmakīrti">Dharmakīrti</author>
+               </bibl>
+               <bibl xml:id="PSṬ">
+                  <title>Pramāṇasamuccayaṭīkā</title>
+                  <author key="#Jinendrabuddhi">Jinendrabuddhi</author>
+               </bibl>
+               <bibl xml:id="TS">
+                  <title>Tattvasaṅgraha</title>
+                  <author key="#Śāntarakṣita">Śāntarakṣita</author>
+               </bibl>
+               <bibl xml:id="VP">
+                  <title>Vākyapadīya</title>
+                  <author key="#Bhartṛhari">Bhartṛhari</author>
+               </bibl>
+               <bibl xml:id="ŚV">
+                  <title>Ślokavārttika</title>
+                  <author key="#Kumārila">Kumārila</author>
+               </bibl>
+               <bibl xml:id="Śā">
+                  <title>Tattvasaṅgraha of Ācārya Shāntarakṣita with the Commentary 'Pañjikā' of
+                     Shrī Kamalashīla</title>
+                  <editor>Dwarikadas Shastri</editor>
+                  <date>1968</date>
+                  <note>edition (Bauddha Bharati Series)</note>
+               </bibl>
+               <bibl xml:id="Kri">
+                  <title>Tattvasaṅgraha of Śāntarakṣita with the Commentary of Kamalaśīla</title>
+                  <editor>Embar Krishnamacharya</editor>
+                  <date>1926</date>
+                  <note>edition (Gaekwad's Oriental Series)</note>
+               </bibl>
+               <bibl xml:id="Jms">
+                  <title>Tattvasaṅgraha/pañjikā</title>
+                  <note>Jaisalmer manuscripts</note>
+               </bibl>
+               <bibl xml:id="Pams">
+                  <title>Tattvasaṅgraha/pañjikā</title>
+                  <note>Pāṭaṇ manuscripts</note>
+               </bibl>
+            </listBibl>
+            <listBibl type="secondary">
+               <head>Secondary scholarship cited in editorial notes</head>
+               <bibl xml:id="Funayama1992">
+                  <author>Funayama, Toru</author>
+                  <date>1992</date>
+                  <title level="a">A Study of Kalpanāpoḍha: A Translation of the Tattvasaṃgraha
+                     vv. 1212–1263 by Śāntarakṣita and the Tattvasaṃgrahapañjikā by Kamalaśīla on
+                     the Definition of Direct Perception</title>
+                  <title level="j">Zinbun: Memoirs of the Research Institute for Humanistic
+                     Studies</title>
+                  <biblScope unit="volume">27</biblScope>
+                  <biblScope unit="page">33–128</biblScope>
+               </bibl>
+               <bibl xml:id="Funayama1999">
+                  <author>Funayama, Toru</author>
+                  <date>1999</date>
+                  <title level="a">Kamalaśīla's Interpretation of 'Non-Erroneous' in the Definition
+                     of Direct Perception and Related Problems</title>
+                  <title level="m">Dharmakīrti's Thought and Its Impact on Indian and Tibetan
+                     Philosophy: Proceedings of the Third International Dharmakīrti
+                     Conference</title>
+                  <editor>Shoryu Katsura</editor>
+                  <pubPlace>Wien</pubPlace>
+                  <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                  <biblScope unit="page">73–99</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="debate_topics">
+               <category xml:id="topic_kalpanapodha">
+                  <catDesc>kalpanāpoḍha — free from conceptualization</catDesc>
+               </category>
+               <category xml:id="topic_abhranta">
+                  <catDesc>abhrānta — non-erroneousness</catDesc>
+               </category>
+               <category xml:id="topic_sukhadisvasamvitti">
+                  <catDesc>sukhādisvasaṃvitti — self-awareness of pleasure etc.</catDesc>
+               </category>
+               <category xml:id="topic_pramanaphala">
+                  <catDesc>pramāṇaphala — a means of valid cognition and its result</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <!-- Buddhist -->
+               <person xml:id="Dignāga">
+                  <persName>Dignāga</persName>
+                  <floruit notBefore="0480" notAfter="0540"/>
+                  <affiliation key="#Bauddha"/>
+                  <note>PS/PSV/NMukh</note>
+               </person>
+               <person xml:id="Dharmakīrti">
+                  <persName>Dharmakīrti</persName>
+                  <floruit notBefore="0600" notAfter="0660"/>
+                  <affiliation key="#Bauddha"/>
+                  <note>PV/PVin/NB</note>
+               </person>
+               <person xml:id="Devendrabuddhi">
+                  <persName>Devendrabuddhi</persName>
+                  <floruit notBefore="0650" notAfter="0720"/>
+                  <affiliation key="#Bauddha"/>
+                  <note>PVP</note>
+               </person>
+               <person xml:id="Śākyabuddhi">
+                  <persName>Śākyabuddhi</persName>
+                  <floruit notBefore="0700" notAfter="0760"/>
+                  <affiliation key="#Bauddha"/>
+                  <note>PVṬ</note>
+               </person>
+               <person xml:id="Vinītadeva">
+                  <persName>Vinītadeva</persName>
+                  <floruit notBefore="0690" notAfter="0770"/>
+                  <affiliation key="#Bauddha"/>
+                  <note>ĀPṬ, NBṬ (dates uncertain: c. 690–750 or 710–770)</note>
+               </person>
+               <person xml:id="Śāntarakṣita">
+                  <persName>Śāntarakṣita</persName>
+                  <floruit notBefore="0725" notAfter="0788"/>
+                  <affiliation key="#Bauddha"/>
+                  <note>TS kārikā author</note>
+               </person>
+               <person xml:id="Kamalaśīla">
+                  <persName>Kamalaśīla</persName>
+                  <floruit notBefore="0740" notAfter="0795"/>
+                  <affiliation key="#Bauddha"/>
+                  <note>TSP pañjikā author</note>
+               </person>
+               <person xml:id="Dharmottara">
+                  <persName>Dharmottara</persName>
+                  <floruit notBefore="0750" notAfter="0810"/>
+                  <affiliation key="#Bauddha"/>
+                  <note>NBṬ</note>
+               </person>
+               <person xml:id="Jinendrabuddhi">
+                  <persName>Jinendrabuddhi</persName>
+                  <floruit notBefore="0710" notAfter="0770"/>
+                  <affiliation key="#Bauddha"/>
+                  <note>PSṬ</note>
+               </person>
+               <!-- Jaina / Digambara -->
+               <person xml:id="Sumati">
+                  <persName>Sumati</persName>
+                  <floruit notBefore="0650" notAfter="0710"/>
+                  <affiliation key="#Digambara"/>
+                  <note>...</note>
+               </person>
+               <!-- Nyāya-Vaiśeṣika -->
+               <person xml:id="Uddyotakara">
+                  <persName>Uddyotakara</persName>
+                  <persName type="alias">Bhāradvāja</persName>
+                  <floruit notBefore="0580" notAfter="0640"/>
+                  <affiliation key="#Nyāya"/>
+                  <note>NV; "Bhāradvāja" = gotra name by which Uddyotakara also self-identifies.
+                     Hence "bhāradvāja" in TSP1237 ("bhargabhāradvājaprabhṛtayaḥ") refers to
+                     him.</note>
+               </person>
+               <person xml:id="Bhāradvāja">
+                  <persName>Bhāradvāja</persName>
+                  <affiliation key="#Nyāya"/>
+                  <note>alias of Uddyotakara. See <ref target="#Uddyotakara"/> and listRelation
+                     aliasOf.</note>
+               </person>
+               <person xml:id="Bhāvivikta">
+                  <persName>Bhāvivikta</persName>
+                  <floruit notBefore="0650" notAfter="0710"/>
+                  <affiliation key="#Nyāya"/>
+                  <note>NBh?</note>
+               </person>
+               <person xml:id="Śaṅkarasvāmin">
+                  <persName>Śaṅkarasvāmin</persName>
+                  <floruit notBefore="0625" notAfter="0680"/>
+                  <affiliation key="#Nyāya"/>
+                  <note>NBhṬ?</note>
+               </person>
+               <person xml:id="Bharga">
+                  <persName>Bharga</persName>
+                  <affiliation key="#Nyāya"/>
+                  <note>Identity and dates uncertain; referenced jointly with Uddyotakara (=
+                     Bhāradvāja) via "bhargabhāradvājaprabhṛtayaḥ" (TSP1237).</note>
+               </person>
+               <!-- Mīmāṃsā -->
+               <person xml:id="Kumārila">
+                  <persName>Kumārila Bhaṭṭa</persName>
+                  <floruit notBefore="0600" notAfter="0660"/>
+                  <affiliation key="#Mīmāṃsā"/>
+                  <note>ŚV</note>
+               </person>
+
+               <!-- Grammarian / Other -->
+               <person xml:id="Bhartṛhari">
+                  <persName>Bhartṛhari</persName>
+                  <floruit notBefore="0450" notAfter="0510"/>
+                  <affiliation key="#Vaiyākaraṇa"/>
+                  <note>Vākyapadīya; grammarian (vyākaraṇa tradition)</note>
+               </person>
+            </listPerson>
+            <listOrg>
+               <!-- Buddhist schools -->
+               <org xml:id="Bauddha" type="Buddhist">
+                  <orgName>Bauddha</orgName>
+               </org>
+               <org xml:id="Yogācāra" type="Buddhist">
+                  <orgName>Yogācāra</orgName>
+               </org>
+               <org xml:id="Sautrāntika" type="Buddhist">
+                  <orgName>Sautrāntika</orgName>
+               </org>
+               <org xml:id="Vijñānavādin" type="Buddhist">
+                  <orgName>Vijñānavādin</orgName>
+               </org>
+               <org xml:id="Bāhyārthasadbhāvavādin" type="Buddhist">
+                  <orgName>Bāhyārthasadbhāvavādin</orgName>
+               </org>
+               <org xml:id="Nirbhāsijñānapakṣa" type="Buddhist">
+                  <orgName>Nirbhāsijñānapakṣa</orgName>
+               </org>
+               <!-- Mīmāṃsā-adjacent position -->
+               <org xml:id="Bhinnapramāṇaphalavādin" type="Non-Buddhist">
+                  <orgName>Bhinnapramāṇaphalavādin</orgName>
+               </org>
+               <!-- Mīmāṃsā -->
+               <org xml:id="Mīmāṃsā" type="Non-Buddhist">
+                  <orgName>Mīmāṃsā</orgName>
+               </org>
+               <!-- Nyāya-Vaiśeṣika -->
+               <org xml:id="Vaiśeṣika" type="Non-Buddhist">
+                  <orgName>Vaiśeṣika</orgName>
+               </org>
+               <org xml:id="Nyāya" type="Non-Buddhist">
+                  <orgName>Nyāya</orgName>
+               </org>
+               <!-- Jaina -->
+               <org xml:id="Digambara" type="Non-Buddhist">
+                  <orgName>Digambara</orgName>
+               </org>
+               <!-- Grammarian -->
+               <org xml:id="Vaiyākaraṇa" type="Non-Buddhist">
+                  <orgName>Vaiyākaraṇa</orgName>
+               </org>
+            </listOrg>
+            <listRelation type="commentaries">
+               <relation name="commentaryOn" active="#Dharmakīrti" passive="#Dignāga"/>
+               <relation name="commentaryOn" active="#Devendrabuddhi" passive="#Dharmakīrti"/>
+               <relation name="commentaryOn" active="#Śākyabuddhi" passive="#Dharmakīrti"/>
+               <relation name="commentaryOn" active="#Śākyabuddhi" passive="#Devendrabuddhi"/>
+               <relation name="commentaryOn" active="#Dharmottara" passive="#Dharmakīrti"/>
+               <relation name="commentaryOn" active="#Jinendrabuddhi" passive="#Dignāga"/>
+               <relation name="commentaryOn" active="#Kamalaśīla" passive="#Śāntarakṣita"/>
+               <relation name="commentaryOn" active="#Vinītadeva" passive="#Dignāga"/>
+               <relation name="commentaryOn" active="#Vinītadeva" passive="#Dharmakīrti"/>
+            </listRelation>
+            <listRelation type="discipleship">
+               <relation name="studentOf" active="#Devendrabuddhi" passive="#Dharmakīrti"/>
+               <relation name="studentOf" active="#Śākyabuddhi" passive="#Devendrabuddhi"/>
+               <relation name="studentOf" active="#Kamalaśīla" passive="#Śāntarakṣita"/>
+            </listRelation>
+            <listRelation type="naming">
+               <relation name="aliasOf" active="#Bhāradvāja" passive="#Uddyotakara"/>
+            </listRelation>
+            <listRelation type="affiliations">
+               <relation name="memberOf"
+                  active="#Dignāga #Dharmakīrti #Devendrabuddhi #Śākyabuddhi #Vinītadeva #Śāntarakṣita #Kamalaśīla #Dharmottara #Jinendrabuddhi"
+                  passive="#Bauddha"/>
+               <relation name="memberOf" active="#Uddyotakara #Bhāvivikta #Śaṅkarasvāmin"
+                  passive="#Nyāya"/>
+               <relation name="memberOf" active="#Kumārila" passive="#Mīmāṃsā"/>
+            </listRelation>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="TSP1212">
+            <p>tatra pramāṇe svarūpaphalagocarasaṅkhyāsu <rs type="group" key="Vaiśeṣika"
+                  cert="medium" ana="critical">pareṣāṃ</rs> vipratipattiś caturvidhā.
+                  <seg>tannirākaraṇena spaṣṭaṃ pramāṇalakṣaṇam ādarśayitum <q type="internal"
+                     source="#TS" n="3" ana="authoritative"
+                     >spaṣṭalakṣaṇasaṃyuktapramādvitayaniścitam</q> ity etatsamarthanārtham āha,
+                  pratyakṣam ityādi.</seg></p>
+            <lg xml:id="TS1212">
+               <l>pratyakṣam anumānaṃ ca yad upādhiprasiddhaye |</l>
+               <l><rs type="group" key="Vaiśeṣika" cert="medium">parair</rs> uktaṃ na tat siddham
+                  evaṃlakṣaṇakaṃ hi tat || 1212 ||</l>
+            </lg>
+            <p>upādhiprasiddhaya iti. guṇadravyakriyājātisamavāyādyupādhiprasiddhaye. <rs
+                  type="group" key="Vaiśeṣika" cert="medium" ana="critical">parair</rs> iti. <rs
+                  type="group" key="Vaiśeṣika" cert="medium" ana="critical">vaiśeṣikādibhiḥ</rs>.
+               evam iti. vakṣyamāṇam. || 1212 || </p>
+         </div>
+         <div type="topic" ana="#topic_kalpanapodha">
+            <head>kalpanāpoḍha</head>
+            <div xml:id="TSP1213">
+               <p>tatra savikalpakam ajñānasvabhāvaṃ vā cakṣurādikaṃ pratyakṣaṃ pramāṇam iti
+                  pratyakṣasvarūpavipratipattiḥ, tannirākaraṇena tallakṣaṇam āha, pratyakṣaṃ
+                  kalpanāpoḍham abhrāntam iti.</p>
+               <lg xml:id="TS1213">
+                  <l><q source="#PVin" n="1.4'bc'" ana="authoritative" type="reference"><q
+                           source="#PS #PV" n="PS:1.3a PV:3.123" ana="authoritative"
+                           type="reference">pratyakṣaṃ kalpanāpoḍham</q> abhrāntam</q> abhilāpinī
+                     |</l>
+                  <l>pratītiḥ kalpanā, klṛptihetutvādyātmikā na tu || 1213 ||</l>
+               </lg>
+               <p>tatra jñānasya kalpanāpoḍhatvam abhrāntatvaṃ cānūdya pratyakṣatvaṃ vidhīyate,
+                  sarvatraiva lakṣyasya vidhīyamānatvāt. yathā, yaḥ kampate so 'śvattha iti. lakṣyam
+                  atra pratyakṣam; tallakṣaṇasyaiva prastutatvāt. na tu kalpanāpoḍhābhrāntalakṣaṇaṃ
+                  prakṛtaṃ, yena tadvidhīyata iti syāt. kalpanāpratiṣedhāc ca jñānasya
+                  sāmarthyalabdhatvāt avatsā dhenur ānīyatām iti yathā "vatsapratiṣedhena godhenoḥ"
+                  ity ato jñānam iti noktam. kā punar atra kalpanā 'bhipretā, yadapoḍhaṃ jñānaṃ
+                  pratyakṣam? ity āha, abhilāpinī pratītiḥ kalpaneti. atha yasyāṃ
+                  klṛptihetutvādyātmikāyāṃ <rs type="person" key="Śaṅkarasvāmin" cert="medium"
+                     ana="critical">śaṅkarasvāmiprabhṛtayo</rs> vistareṇa doṣam uktavantaḥ, sāpi kiṃ
+                  gṛhītavyā uta na ? ity āha, klṛptihetutvādyātmikā na tv iti. gṛhyata iti śeṣaḥ.
+                  tena tadāśrayeṇa ye doṣāḥ <rs type="person" key="Śaṅkarasvāmin" ana="critical"
+                     >pareṇa</rs> uktā, te tatpakṣānaṅgīkārād eva nāvatarantīty uktaṃ bhavati.
+                  kḷptiḥ = vyapadeśaḥ, taddhetutvaṃ jātyādīnām iti boddhavyam; yato jātyādiviśeṣam
+                  antareṇa na vyapadeśo 'sti. ādiśabdena śabdasaṃsargacittaudārikasūkṣmatāhetū
+                  vitarkavicārau, tathā grāhyagrāhakakalpanety evamādi grahītavyam. abhilāpaḥ =
+                  vācakaḥ śabdaḥ, sa ca sāmānyākāraḥ, sa vidyate yasyāḥ pratibhāsataḥ sā tathoktā.
+                  || 1213 ||</p>
+            </div>
+            <div xml:id="TSP1214">
+               <p>kutaḥ punar īdṛśī pratītiḥ siddhā? ity āha, śabdārthetyādi.</p>
+               <lg xml:id="TS1214">
+                  <l>śabdārthaghaṭanāyogyā vṛkṣa ityādirūpataḥ |</l>
+                  <l>yā vācām aprayoge 'pi sābhilāpeva jāyate || 1214 ||</l>
+               </lg>
+               <p>vṛkṣa ityādirūpato yā vācām aprayoge 'pīti sambandhaḥ. yadi vā, pūrveṇa
+                  śabdārthaghaṭanāyogyā vṛkṣa ityādirūpata iti sambandhaḥ. anena pratyakṣata eva
+                  kalpanāyāḥ siddhim ādarśayati; sarvaprāṇabhṛtām anusiddhatvād vikalpasya. ||
+                  1214||</p>
+            </div>
+            <div xml:id="TSP1215">
+               <p>tathā hy ā bālam asāv itikarttavyatāhetutayā siddhaiveti darśayati,
+                  atītetyādi.</p>
+               <lg xml:id="TS1215">
+                  <l>atītabhavanāmārthabhāvanāvāsanānvayāt |</l>
+                  <l>sadyojāto 'pi yadyogād itikarttavyatā paṭuḥ || 1215 ||</l>
+               </lg>
+               <p>atīto bhavaḥ = atītaṃ janma, tatra nāmārthabhāvanā = śabdārthābhyāsaḥ, tenāhitā yā
+                  vāsanā = sāmarthyaṃ, tasyā anvayaḥ = anugamo yato bālasyāpy asti, tenābhilāpinī
+                  pratītis tasyāpi bhavaty eva. yasyāḥ kalpanāyā yogāt, itikarttavyatāyām =
+                  smitaruditastanapānapraharṣādilakṣaṇāyām, paṭuḥ = caturo bhavati, ato 'nayā
+                  kāryabhūtayā yathoktā kalpanā bālasyāpy anumīyata eva.</p>
+               <p>
+                  <seg>yathoktam, <q type="quotation" source="#VP" n="1.121" ana="affirmative"
+                        >itikarttavyatā loke sarvaśabdavyapāśrayā. yāṃ pūrvāhitasaṃskāro bālo 'pi
+                        pratipadyate</q> iti.</seg>
+               </p>
+               <p>sā punaḥ sanmūrcchitākṣarākāradhvaniviśiṣṭam antarmātrāviparivarttinam arthaṃ
+                  bahir ivādarśayantī teṣāṃ samupajāyate, yayā paścāt saṅketagrahaṇakuśalā bhavanti.
+                  || 1215 ||</p>
+            </div>
+            <div xml:id="TSP1216">
+               <p>cintetyādinā bhūyaḥ pratyakṣataḥ kalpanāsiddhim āha.</p>
+               <q type="reference" source="#VP" n="1.131" ana="affirmative">
+                  <lg xml:id="TS1216">
+                     <l>cintotprekṣādikāle ca vispaṣṭaṃ yā pravedyate |</l>
+                     <l>anuviddheva sā śabdair apahnotuṃ na śakyate || 1216 ||</l>
+                  </lg>
+               </q>
+            </div>
+            <div xml:id="TSP1217">
+               <p>tasyāś cetyādinā śābdavyavahārākhyakāryaliṅgato 'pi siddhim āha.</p>
+               <lg xml:id="TS1217">
+                  <l>tasyāś cādhyavasāyena bhrāntā śabdārthayoḥ sthitiḥ |</l>
+                  <l>anyāyogād asattve 'syāḥ <app>
+                        <lem source="#Kri">sedṛśy</lem>
+                        <rdg source="#Śā">sadṛśy</rdg>
+                     </app> api ca sambhavet || 1217 ||</l>
+               </lg>
+               <p>yatas tāttvikī śabdārthavyavasthā <app>
+                     <lem source="#Śā">pūrvaṃ</lem>
+                     <rdg source="#Kri">pūrvair</rdg>
+                  </app> niṣiddhā, bhrānteti ca vyavasthāpitā. yadi cāsyāḥ kalpanāyā asattvaṃ syāt,
+                  tadā sā = śabdārthavyavasthā, īdṛśy api = bhrāntāpi, na sambhavet;
+                  tadabhiprāyavaśāt tasyāvyavasthānāt, anyeṣāṃ ca svalakṣaṇādīnāṃ bāhyānāṃ
+                  vācyatvenāyogasya pratipāditatvāt. || 1217 ||</p>
+            </div>
+            <div xml:id="TSP1218">
+               <p>nanu cānye 'pi na kevalam abhilāpinīṃ pratītiṃ kalpanāṃ varṇayanti, kin tu
+                  jātiguṇakriyādisambandhayogyām api. sā kasmān na <app>
+                     <lem source="#Śā">gṛhyeta?</lem>
+                     <rdg source="#Kri">gṛhyata</rdg>
+                  </app> ity āha, jātyādītyādi.</p>
+               <lg xml:id="TS1218">
+                  <l>jātyādiyojanāyogyām apy anye kalpanāṃ viduḥ |</l>
+                  <l>sā jātyāderapāstatvādadṛṣṭeśca na saṅgatā || 1218 ||</l>
+               </lg>
+               <p>adṛṣṭeś ceti. jātyāder iti sambandhaḥ. ayaṃ cābhyupagamya jātyādīn parihāra uktaḥ.
+                  || 1218 ||</p>
+            </div>
+            <div xml:id="TSP1219">
+               <p>jātyādīnām ityādinā tad evādṛṣṭatvaṃ samarthayate.</p>
+               <lg xml:id="TS1219">
+                  <l>jātyādīnāmadṛṣṭatvāttadyogāpratibhāsanāt |</l>
+                  <l>kṣīrodakādivac cārthe ghaṭanā ghaṭate katham || 1219 ||</l>
+               </lg>
+               <p>kṣīrodakādivac ceti. <q type="reference" source="#PVin" n="10,1–3"
+                     ana="authoritative">yathā kṣīrodakāder miśrībhūtasya vivekenāpratibhāsanān na
+                     ghaṭanā śakyate kartuṃ</q> tadvaj jātyādīnāṃ sattve 'pi vivekenāśrayād
+                  apratibhāsanān na śakyate tadāśrayeṇa sahety arthaḥ. || 1219 ||</p>
+            </div>
+            <div xml:id="TSP1220">
+               <p><seg>yadi tarhi jātyādiyojanā kalpanā na yuktaiva, tat kathaṃ <rs type="person"
+                        key="Dignāga" ana="authoritative">lakṣaṇakāreṇa</rs> uktaṃ <q
+                        type="quotation" source="#PS" n="1.3d" ana="authoritative"
+                        >nāmajātyādiyojanā kalpanā</q> iti?</seg> āha, heyetyādi.</p>
+               <lg xml:id="TS1220">
+                  <l>heyopādeyaviṣayakathanāya dvayoktitaḥ |</l>
+                  <l><rs type="group" key="Vaiśeṣika" cert="medium" ana="critical">para</rs><rs
+                        type="person" key="Dignāga" ana="affirmative">apara</rs>prasiddheyaṃ kalpanā
+                     dvividhoditā || 1220 ||</l>
+               </lg>
+               <p>tatra heyā jātyādiyojanā <rs type="group" key="Vaiśeṣika" cert="medium"
+                     ana="critical">para</rs>prasiddhā kalpanā, upādeyā <rs type="person"
+                     key="Dignāga" ana="affirmative">sva</rs>prasiddhā nāmayojanākalpanā, iti
+                  darśanāya dviprakārā 'pi kalpanā nirdiṣṭā. katham avagamyate? ity āha, [p.369]
+                  dvayoktitaḥ, yasmān nāma ca jātyādayaś ca nāmajātyādayas teṣāṃ yojanā, ity evaṃ
+                  vargadvayam uktam; anyathā nāmādiyojanā yadi vā jātyādiyojanā, ity eva vācyaṃ
+                  syāt. na cedaṃ parigaṇanam, ādiśabdavaiphalyaprasaṅgāt. || 1220 ||</p>
+            </div>
+            <div xml:id="TSP1221">
+               <p>nanu ca kalpanā jñānadharmaḥ, tadvirahapratipādanam eva prakṛtaṃ;
+                  pratyakṣādhikārāt, nārthadharmavirahapratipādanam. nāmajātyādīnāṃ ca yā yojanā
+                  tadvadbhiḥ, sā 'rthagato dharmaḥ, na jñānasya; tataś cāprastutābhidhāyitvaṃ <rs
+                     type="person" key="Dignāga" ana="authoritative">lakṣaṇakārasya</rs> ? iti
+                  codyam āśaṅkyāha, nāmādiyojanā ceyam iti.</p>
+               <lg xml:id="TS1221">
+                  <l>nāmādiyojanā ceyaṃ svanimittam anantaram |</l>
+                  <l>ākṣipya varttate yena tena nāprastutābhidhā || 1221 ||</l>
+               </lg>
+               <p>anantaram, avyavahitaṃ nimittaṃ, yat tasyāḥ kāraṇam. tat punar āviṣṭābhilāpā
+                  pratītiḥ. sā ca vastudvayānusamdhānākārotpattitastathā yojaneti vyapadiśyate,
+                  naiva tu kaścit kaṃcid yojayati, <q type="reference" source="#PSV" n="4,15"
+                     ana="authoritative">nirvyāpāratvāt sarvadharmāṇām</q> | tasyākṣepo dvābhyāṃ
+                  prakārābhyām. tābhyāṃ yojanā yato bhavati sā tathoktā.
+                  gamakatvādvaiyadhikaraṇye'pi ca bahuvrīhiḥ. kāraṇe kāryopacārādvā. upacārasya na
+                  prayojanaṃ tadanyakāraṇebhyo viśiṣṭakāryakāriṇaḥ svabhāvakhyāpanam. || 1221 ||</p>
+            </div>
+            <div xml:id="TSP1222">
+               <p>atha vā, yojyate 'nayeti yojanā, nāmajātyādīnāṃ yojaneti samāsaṃ kṛtvā 'bhilāpiny
+                  eva kalpanā nirdiṣṭety adoṣa iti darśayati, nāmajātyādaya ityādi.</p>
+               <lg xml:id="TS1222">
+                  <l>nāmajātyādayaḥ sarve yojyante vā'nayeti sā |</l>
+                  <l>tathoktā kalpanā proktā pratītirabhilāpinī || 1222 ||</l>
+               </lg>
+               <p>|| 1222 ||</p>
+            </div>
+            <div xml:id="TSP1223">
+               <p>yadvetyādinā parihārāntaram āha</p>
+               <lg xml:id="TS1223">
+                  <l>yad vā <rs type="person" key="Dignāga" ana="affirmative">sva</rs>matasiddhaiva
+                     kevalā kalpanoditā |</l>
+                  <l>sarvatra nāmnā yukto'rtha ucyata iti yojanāt || 1223 ||</l>
+               </lg>
+               <p>yady evaṃ katham ayam <rs type="person" key="Dignāga" ana="authoritative"
+                     >ācāryīyo</rs> vṛttigrantho nīyate.</p>
+               <p>
+                  <seg>tad yathā, <q type="quotation" source="#PSV" n="1.3d" ana="authoritative"
+                        >yadṛcchāśabdeṣu nāmnā viśiṣṭo 'rtha ucyate ḍittha iti, jātiśabdeṣu jātyā
+                        gaur iti, guṇaśabdeṣu guṇena śukla iti, kriyāśabdeṣu kriyayā pācaka iti,
+                        dravyaśabdeṣu dravyeṇa daṇḍī viṣāṇīti |</q></seg>
+               </p>
+               <p>anena hi granthena jātyādiviśeṣaṇayuktasyāpy arthasyocyamānatvaṃ pṛthakprakāśitam
+                  ity ata āha, sarvatretyādi. sarvatreti. jātyādiśabdeṣv api. etad uktaṃ bhavati,
+                  yathā yadṛcchāśabdeṣu prayujyamāneṣu nāmnā viśiṣṭo'rtha ucyate, evaṃ
+                  jātyādiśabdeṣu gaurityādiṣu nāmnā viśiṣṭo'rtha ucyate ity etat sarvatra granthe
+                  yojanīyam iti || 1223 ||</p>
+            </div>
+            <div xml:id="TSP1224">
+               <p>kathaṃ tarhi jātyā guṇena kriyayā dravyeṇa vety etad aparaṃ tṛtīyāntaṃ yojanīyam ?
+                  ity āha, tais tv ityādi.</p>
+               <lg xml:id="TS1224">
+                  <l>tais tu karaṇavibhaktyā sāphalyam anubhūyate |</l>
+                  <l>nāmno jātyādibhiḥ seyam ity artho 'dhyavatiṣṭhate || 1224 ||</l>
+               </lg>
+               <p>jātyā karaṇabhūtayā nāmnā viśiṣṭo 'rtha ucyate gaur iti, tathā guṇādibhiḥ, ity
+                  evaṃ tair jātyādibhiḥ karaṇavibhaktyā sambandhāt sāphalyam anubhūyate. <seg>yady
+                     evaṃ, <q type="quotation" source="#PSV" n="1.3d" ana="authoritative"
+                        >nāmajātyādiyojanā</q> ity atra sūtre kathaṃ sambandhaḥ kāryaḥ ? ity āha,
+                     nāmno jātyādibhir iti.</seg> yojaneti śeṣaḥ. seyam iti. anena samāsārthalabhyāṃ
+                  kalpanām eva nirdiśati. jātyādibhir yojanā jātyādiyojanā, nāmno jātyādiyojanā
+                  seyaṃ nāmajātyādiyojanety ayaṃ samāsārtho 'dhyavatiṣṭhata iti yāvat || 1224 ||</p>
+            </div>
+            <div xml:id="TSP1225">
+               <p>yady evam, yadṛcchāśabdeṣu jātyādīnāṃ pravṛttinimittānām abhāvād avyāpinī
+                  vyavasthā bhavet ? ity āśaṅkyāha, yadṛcchāśabdavācyāyā iti.</p>
+               <lg xml:id="TS1225">
+                  <l>yadṛcchāśabdavācyāyā jāteḥ sadbhāvato na ca |</l>
+                  <l>avyāptirasya mantavyā prasiddhes tu pṛthakśrutiḥ || 1225 ||</l>
+               </lg>
+               <p>etad uktaṃ bhavati, ye 'py ete ḍitthādayaḥ śabdā yadṛcchāśabdatvena pratītāḥ, te
+                  'pi janmanaḥ prabhṛty ā maraṇakṣaṇād anuvarttamānāḥ pratikṣaṇabhedabhinnam
+                  asādhāraṇabhedena vastu gamayitum aśaktāḥ
+                  kālaprakarṣamaryādāvacchinnavastusamavetāṃ jātim abhidheyatvenopādadate, anyathā
+                  hi bālādyavasthābhedaparicchinnavastubhāgaviṣayatayā nirūḍhāḥ kathaṃ
+                  vṛddhādyavasthopahitabhedam api vastu pratipādayeyuḥ .</p>
+               <p>yeṣām api "na kṣaṇiko dehaḥ, kiṃ tarhi kālāntarāvasthāyī" iti darśanam, teṣām api
+                  yathākālam apacīyamānāvayavasambandhād, avayavāpacayād vā, anyad <app>
+                     <lem source="#Kri">anyad</lem>
+                     <rdg source="#Śā"/>
+                  </app> dravyam avasthābhedeṣv iti siddham.</p>
+               <p>pariṇati darśane 'pi yad avasthābhedasambaddhaṃ vastu tac chabdavācyatayā
+                  pratijñātam, tataś cāvasthāntaraṃ samāśrayeta, tad eva vastu tena śabdena
+                  nābhidhīyeta, yathā payasi viniścitābhidhānaśaktiḥ kṣīraśabdo na dadhni
+                  pravarttate, tathā śarīre 'pi nāvasthāntare pravartteteti jātir <app>
+                     <lem source="#Kri">avaśyābhyupagantavyā</lem>
+                     <rdg resp="#Śā">avaśyam abhyupagantavyā</rdg>
+                  </app>.</p>
+               <p>atha vā, mā bhūd vastubhūtā jātiḥ, tathā 'pi nāvyāpinī vyavasthā. tathā hi, ta eva
+                  bhedā [p. 371] avivakṣitabhedāḥ sāmānyam iti sarvatra jātiśabdairupādīyanta iti
+                  yadṛcchāśabdā api<app>
+                     <lem source="#Śā"> jātyabhidhāyinaḥ santu.</lem>
+                     <rdg source="#Kri"/>
+                  </app></p>
+               <p>
+                  <app>
+                     <lem source="#Śā">
+                        <seg>tathā coktam, <q type="quotation" source="#VP" n="3.1.12"
+                              ana="authoritative">jātau padārthe jātir vā viśeṣo vāpi jātivat.
+                              śabdair apekṣyate yasmād atas te jātivācinaḥ ||</q> iti.</seg>
+                     </lem>
+                     <rdg source="#Kri"/>
+                  </app>
+               </p>
+               <p><app>
+                     <lem source="#Śā">kim arthaṃ tarhi yadṛcchāśabdā</lem>
+                     <rdg source="#Kri"/>
+                  </app> jātiśabdebhyaḥ pṛthag <rs type="person" key="Dignāga" ana="authoritative"
+                     >lakṣaṇakāreṇa</rs> nirdiṣṭā ity āha, prasiddhes tv iti. gavādayo hi śabdāloke
+                  jātiśabdatayā pratītāḥ, citrāṅgadādayas tu saṃjñāśabdatveneti pṛthagvacanam ||
+                  1225 ||</p>
+            </div>
+            <div xml:id="TSP1226">
+               <p>nanv <app>
+                     <lem resp="#Śā">ityādinā</lem>
+                     <rdg resp="#Kri">ityādi</rdg>
+                  </app>
+                  <rs type="person" key="unknown" ana="affirmative">paraś</rs> codayati.</p>
+               <lg xml:id="TS1226">
+                  <l>nanv anyāpohavācyatvāj jātiśabdas tu kevalaḥ |</l>
+                  <l>vivakṣāparatantratvād <app>
+                        <lem resp="#Śā">yadṛcchā</lem>
+                        <rdg resp="#Kri">vivakṣā</rdg>
+                     </app>śabda eva vā || 1226 ||</l>
+               </lg>
+               <p>|| 1226 ||</p>
+            </div>
+            <div xml:id="TSP1227">
+               <p>satyam ityādinā pratividhatte.</p>
+               <lg xml:id="TS1227">
+                  <l>satyaṃ lokānuvṛttyedam uktaṃ <rs type="person" key="Dignāga"
+                        ana="authoritative">nyāyavidedṛśam</rs> |</l>
+                  <l>iyān eva hi śabdo 'smin vyavahārapathaṃ gataḥ || 1227 ||</l>
+               </lg>
+               <p>iyān eva hīti. pañcaprakāraḥ saṃjñājātiguṇakriyādravyaśabdabhedena || 1227 ||</p>
+            </div>
+            <div xml:id="TSP1228_1229">
+               <p><seg>nanu yadi <rs type="person" key="Dignāga" ana="authoritative"
+                        >svamatasiddhaiva</rs> kalpanā 'bhipretā kim arthaṃ tarhi <q
+                        type="quotation" source="#PSV" n="1.3d" ana="authoritative">anye tv
+                        arthaśūnyaiḥ śabdair eva viśiṣṭo 'rtha ucyate</q> ity anena granthena pṛthak
+                        <rs type="person" key="Dignāga" ana="authoritative">svamatasiddhā</rs>
+                     kalpanā paścād <rs type="person" key="Dignāga" ana="authoritative"
+                        >upavarṇitā''cāryeṇa</rs>? ity āha</seg>, te tu jātyādaya iti.</p>
+               <lg xml:id="TS1228">
+                  <l>te tu jātyādayo neha lokavad vyatirekiṇaḥ |</l>
+                  <l>ity etatpratipattyartham anye tv ityādivarṇitam || 1228 ||</l>
+               </lg>
+               <lg xml:id="TS1229">
+                  <l>jātyādiyojanāṃ ye 'pi kalpanāṃ samupāśritāḥ |</l>
+                  <l><rs type="group" key="Vaiśeṣika" cert="medium" ana="critical">tair</rs>
+                     abhyupeyā niyataṃ pratītir abhilāpinī || 1229 ||</l>
+               </lg>
+               <p>etad uktaṃ bhavati, na sāvaleyādivyaktivyatiriktā jātyādayaḥ pāramārthikāḥ santi
+                  sāṃvṛtāsta ity asyārthasya pratipādanārtham uktam idaṃ <rs type="person"
+                     key="Dignāga" ana="authoritative">lakṣaṇakāreṇa</rs>, na tu pṛthag aparāṃ
+                  kalpanāṃ darśayitum iti. <rs type="group" key="Bauddha" ana="affirmative"
+                     >anya</rs> iti. <rs type="group" key="Bauddha" ana="affirmative">bauddhāḥ</rs>.
+                  arthaśūnyair iti. jātyādinirapekṣair apohamātragocaraiḥ śabdaiḥ. ity <rs
+                     type="person" key="Dignāga" ana="authoritative">ācāryagranthasyārthaḥ</rs> ||
+                  1228-1229 ||</p>
+            </div>
+            <div xml:id="TSP1230_1231_1232">
+               <p>na kevalam <rs type="group" key="Bauddha" ana="affirmative">asmābhir</rs> iyam
+                  abhilāpinī pratītiḥ kalpanā 'bhyupagatā, <rs type="group" key="Vaiśeṣika"
+                     cert="medium" ana="critical">parair</rs> apy <app>
+                     <lem source="#Kri">avaśyābhyupagantavyā</lem>
+                     <rdg source="#Śā">avaśyam abhyupagantavyā</rdg>
+                  </app>, anyathā jagadavyavahāryam eva syād iti darśayann āha, jātyādiyojanāṃye
+                  'pīti.</p>
+               <lg xml:id="TS1230">
+                  <l>anyathā yojanābhāvād yuktayor iva bhāvayoḥ |</l>
+                  <l>svātantryeṇa paricchedāt kalpanā naiva kalpyate || 1230 ||</l>
+               </lg>
+               <lg xml:id="TS1231">
+                  <l>evaṃ vā vyavahāryaṃ syāt sarvaṃ viśvam idaṃ tataḥ |</l>
+                  <l>jātyādirūpasaṃsṛṣṭaṃ vyavahāryam idaṃ matam || 1231 ||</l>
+               </lg>
+               <lg xml:id="TS1232">
+                  <l>jātyādiyojanā śabdayojanā 'vyabhicāriṇī |</l>
+                  <l>evaṃ cocyata ity etat phalavaj jāyate vacaḥ || 1232 ||</l>
+               </lg>
+               <p>[p. 372]jātiguṇakriyādravyayojanāyām api kalpanāyāṃ parair abhyupagatāyāṃ
+                  nāmayojanaiva kalpanā. tathā hi, tatra jātyādivyavacchinnaṃ vastu nāmnaiva
+                  viśiṣṭaṃ gṛhyate, anyathā hi svātanñyeṇānekapadārthagrahaṇavad yojanābhāvāt kathaṃ
+                  kalpanā bhavet, tataś ca mūkam eva jagat syāt. ata eva ca daṇḍayuktaṃ puruṣaṃ
+                  paśyann api na tāvad daṇḍīti yojayati yāvan na nāmabhedaṃ smarati. yata eva
+                  śabdayojanayā sarvā yojanāvyāptā, ata eva ca <rs type="person" key="Dignāga"
+                     ana="authoritative">ācāryīyaṃ</rs> "jātyā viśiṣṭo 'rtha ucyate gauḥ" ityādiṣu
+                  yad "ucyate" iti vacanam, tatsaphalaṃ bhavet. anyathā vinā nāmnā katham "ucyate"
+                  iti syāt; abhidhānakriyāyāḥ śabdadharmatvāt || 1230 || 1231 || 1232 ||</p>
+            </div>
+            <div xml:id="TSP1233">
+               <p>tasmād ityādinā kalpanāsiddhim upasaṃharati.</p>
+               <lg xml:id="TS1233">
+                  <l>tasmāt samastasiddhāntasaṃsthitānāṃ pravādinām |</l>
+                  <l>avivādād ayatnena sādhyeyaṃ kalpanā matā || 1233 ||</l>
+               </lg>
+               <p>|| 1233 ||</p>
+            </div>
+            <div xml:id="TSP1234_1235">
+               <p><app>
+                     <lem source="#Śā">yad vā,</lem>
+                     <rdg source="#Kri"/>
+                  </app><rs type="person" key="Dignāga" ana="authoritative">lakṣaṇakārasya</rs>
+                  kalpanāṃ <app>
+                     <lem source="#Śā">siddhirūpaṃ</lem>
+                     <rdg source="#Kri">dvirūpāṃ</rdg>
+                  </app> nirdiśato 'bhiprāyam āha, etad āgūryeti.</p>
+               <lg xml:id="TS1234">
+                  <l>etad āgūrya sakalaṃ nāmajātyādivarṇanam |</l>
+                  <l>matayoḥ <rs type="person" key="Dignāga" ana="affirmative">sva</rs><rs
+                        type="group" key="Vaiśeṣika" cert="medium" ana="critical">anyayor</rs>
+                     ittham upādānam ihākarot || 1234 ||</l>
+               </lg>
+               <lg xml:id="TS1235">
+                  <l><rs type="group" key="Vaiśeṣika" cert="medium" ana="critical">tebhyo</rs>
+                     <rs type="group" key="Bauddha" ana="affirmative">'smākam</rs> iyān eva bheda
+                     ity <app>
+                        <lem source="#Jms #Pams">eva <rs type="person" key="Dignāga"
+                              ana="affirmative">sa</rs> bruvan</lem>
+                        <rdg source="#Śā #Kri">evam abruvan</rdg>
+                     </app> |</l>
+                  <l><rs type="group" key="Bauddha" ana="affirmative">anye</rs> tv ityādikaṃ vākyam
+                     anantaram ado jagau || 1235 ||</l>
+               </lg>
+               <p>heyopādeyaviṣayakathanaṃ <app>
+                     <lem source="#Śā">jātyādiyojanā</lem>
+                     <rdg source="#Kri">jātyādiyojanāṃ vinā</rdg>
+                  </app> nāmayojanāṃ vinā bhāvinītyādi pūrvopavarṇitam. nāmajātyādivarṇanam iti.
+                  akarod iti sambandhaḥ. <rs type="person" key="Dignāga" ana="affirmative"
+                     >sva</rs><rs type="group" key="Vaiśeṣika" cert="medium" ana="critical"
+                     >anyayos</rs> tu matayor upādānaṃ heyopādeyaviṣayakathanāya || 1234 1235 ||</p>
+            </div>
+            <div xml:id="TSP1236">
+               <p><rs type="text" key="Nyāyamukha" ana="authoritative">nyāyamukhagranthas</rs> tarhi
+                  kathaṃ neyaḥ? ity āha, evam ityādi.</p>
+               <lg xml:id="TS1236">
+                  <l>evaṃ <rs type="text" key="Nyāyamukha" ana="authoritative"
+                        >nyāyamukhagrantho</rs> vyākhyātavyo diśānayā |</l>
+                  <l>jñānam ity abhisambandhāt pratītis tatra coditā || 1236 ||</l>
+               </lg>
+               <p>
+                  <seg>tatrāyaṃ <rs type="text" key="Nyāyamukha" ana="authoritative"
+                        >nyāyamukhagranthaḥ</rs>, <q type="quotation" source="#NMukh"
+                        ana="authoritative">yat jñānam artharūpādau
+                        viśeṣaṇabhidhāyakābhedopacāreṇāvikalpakaṃ tad akṣam akṣaṃ prati varttata iti
+                        pratyakṣam</q> iti.</seg>
+               </p>
+               <p>viśeṣaṇaṃ jātyādi, abhidhāyakaṃ nāma, tayor abhedopacāro jātyādimadbhiḥ saṃjñinā
+                  ca. abhedopacāragrahaṇam upalakṣaṇam [p. 373] yatrāpi bhedena grahaṇam asya gotvam
+                  asyedaṃ nāmeti, tatrāpi kalpaneṣyata eva.</p>
+               <p>nanu cānupratītiḥ kalpaneti noktaṃ, tat kathaṃ yathoktakalpanā labhyate? ity āha,
+                  jñānam ity abhisambandhād iti. etad uktaṃ bhavati, kalpanāvaiparītyena jñānam eva
+                  pratyakṣatvena darśayatā jñānadharmatvaṃ kalpanāyā darśitam . tathā cāyam artho
+                  bhavati, yaj jñānaṃ nāmādyabhedopacāreṇāvikalpakam, tat pratyakṣaṃ; yat tu jñānaṃ
+                  tathāvikalpakaṃ tat kalpanātmakatvān na pratyakṣam iti sāmarthyād abhilāpinī
+                  pratītiḥ kalpaneti pratyakṣavaiparītyena sidhyati evaṃ <rs type="group"
+                     key="Vaiśeṣika" cert="medium" ana="critical">para</rs><rs type="person"
+                     key="Dignāga" ana="affirmative">apara</rs>matasaṅgraho darśita iti || 1236
+                  ||</p>
+            </div>
+            <div xml:id="TSP1237">
+               <p>yad vā <rs type="person" key="Dignāga" ana="authoritative">svamatopavarṇanam</rs>
+                  eva kevalam <rs type="person" key="Dignāga" ana="authoritative">ācāryeṇa</rs>
+                  kṛtam ity ādarśayati, yad vetyādi.</p>
+               <lg xml:id="TS1237">
+                  <l>yad vā viśeṣaṇaṃ bhedo yena<q type="reference" source="#PS" n="5.11d"
+                        ana="authoritative">anyāpohakṛc chrutiḥ</q> |</l>
+                  <l>jātyādīnāṃ vyavacchedam anena ca karoty ayam || 1237 ||</l>
+               </lg>
+               <p>bhedo viśeṣaṇaṃ vyāvṛttir ity arthaḥ. tasyābhidhāyakaṃ, na jātyādīnām;
+                  tasyābhedopacāra iti vigrahaḥ || 1237 ||</p>
+            </div>
+            <div xml:id="TSP1238_1239_1240_1241">
+               <p>nanu ca yadi pratītir abhilāpinī kalpanā, sā dharmiṇī, na ca dharmyantare
+                  dharmyantarasya prasaṅgo yena tanniṣedhas taddharmatayā kriyata ity
+                  asambandhābhidhānam; tathā yadi pratyakṣaṃ kalpanāpoḍham, <app>
+                     <lem source="#Śā">kathaṃ</lem>
+                     <rdg source="#Kri">katvaṃ</rdg>
+                  </app> tatpratyakṣaśabdenocyata iti? <seg><q type="reference" source="unknown"
+                     ana="critical" who="#Bharga #Uddyotakara">anabhidheyārthaḥ kila
+                     kalpanāpoḍhārthaḥ</q> iti manvānāḥ <rs type="person" key="Bharga Bhāradvāja"
+                        cert="medium" ana="critical">pare bhargabhāradvājaprabhṛtayaḥ</rs>
+                     codayanti.</seg> etac ca sarvaṃ parihṛtam eveti yojayann āha, evaṃ pratītirūpā
+                  cetyādi.</p>
+               <lg xml:id="TS1238">
+                  <l>evaṃ pratītarūpā ca yad evaṃ kalpanā matā |</l>
+                  <l>tādātmyapratiṣedhaś ca pratyakṣasyopavarṇyate || 1238 ||</l>
+               </lg>
+               <lg xml:id="TS1239">
+                  <l>tadādhyakṣādiśabdena vācyatve 'pi na bādhyate |</l>
+                  <l>kalpanāviraho 'dhyakṣe na hi sā śabdavācyatā || 1239 ||</l>
+               </lg>
+               <lg xml:id="TS1240">
+                  <l>anyathā rūpagandhādeḥ savikalpakatā bhavet |</l>
+                  <l>ato nāspadam evedaṃ yadāhuḥ kudhiyaḥ pare || 1240 ||</l>
+               </lg>
+               <lg xml:id="TS1241">
+                  <l>yadi pratyakṣaśabdena pratyakṣam abhidhīyate |</l>
+                  <l>kathaṃ tat kalpanāpoḍham ayuktaṃ gamyate katham || 1241 ||</l>
+               </lg>
+               <p>tādātmyapratiṣedha iti. <seg><q type="quotation" source="#PSV" n="2,14"
+                        ana="authoritative">yatraiṣā kalpanā nāsti tat pratyakṣam</q> ity anena
+                     granthena <rs type="person" key="Dignāga" ana="authoritative">lakṣaṇakāraḥ</rs>
+                     tādātmyapratiṣedhaṃ karoti.</seg> evaṃbhūtaṃ kalpanātmakaṃ yajjñānaṃ na
+                  bhavatīty arthaḥ. na tv ādheyaniṣedham iti prathamaṃ tāvad acodyam. dvitīyam apy
+                  acodyam eva, yato nānabhidheyārthaḥ kalpanāpoḍhārtho varṇitaḥ, kiṃ tarhi ?
+                  avikalpakārthaḥ. avikalpakam api jñānaṃ yady apy abhidhīyate,
+                  śabdenādhyavasāyānurodhāt; tathāpi rūpādivan na vikalpakatāṃ yāsyatīti yat kiṃcid
+                  etat. || 1238 1239 1240 1241 ||</p>
+            </div>
+            <div xml:id="TSP1242">
+               <p>syād etat bhavatv evaṃ yathopavarṇitā kalpanā, kalpanāpoḍhaṃ tu kathaṃ siddham ?
+                  ity āha pratyakṣam ityādi.</p>
+               <lg xml:id="TS1242">
+                  <l>pratyakṣaṃ kalpanāpoḍhaṃ vedyate 'tiparisphuṭam |</l>
+                  <l><q type="reference" source="#PV" n="3.175ab" ana="affirmative"
+                        >anyatrāsaktamanasāpy akṣair nīlādivedanāt</q> ||1242||</l>
+               </lg>
+               <p>anena svasaṃvittyā pratyakṣataḥ kalpanāvirahaḥ siddhaḥ, ity ādarśayati
+                  ||1242||</p>
+            </div>
+            <div xml:id="TSP1243">
+               <p>syād etad, asāv eva viṣayāntaravyāsakto vikalpaḥ <app>
+                     <lem source="#Śā">puro'vasthaṃ</lem>
+                     <rdg source="#Kri">purasthaṃ</rdg>
+                  </app> nīlādi pratipadyata ity āha nāsāvevetyādi.</p>
+               <lg xml:id="TS1243">
+                  <l>nāsāv eva vikalpo hi tam arthaṃ pratipadyate |</l>
+                  <l>atītādyabhidhātyāgāt tannāmaghaṭanāptitaḥ ||1243||</l>
+               </lg>
+               <p>yadi hi sa eva vikalpas tam arthaṃ pratipadyeta, tadātītādyarthābhidhānatyāgena
+                  tasyaiva nīlāder nāma yojayet; ekatrābhilāpadvayasaṃsargāpratīter
+                  atītādyabhidhātyāgād ity uktam. tasyābhimukhībhūtasya nāma = tannāma, tasya
+                  ghaṭanā = yojanā, tasyā āptiḥ = prātiḥ. prasaṅga iti yāvat. ||1243||</p>
+            </div>
+            <div xml:id="TSP1244">
+               <p>syān matam, anya eva tarhi vikalpas tadā tam arthaṃ pratipadyata ity evaṃ kasmān
+                  na vijñāyate? ity āha, tadā tannāmetyādi.</p>
+               <lg xml:id="TS1244">
+                  <l>tadā tannāmasaṃsargī vikalpo 'sty aparo na ca |</l>
+                  <l>dṛśyasyāpratisaṃvitter aniṣṭeś ca dvayoḥ sakṛt ||1244||</l>
+               </lg>
+               <p>anena yathākramaṃ, pratyakṣavirodham, abhyupagamavirodhaṃ ca sakṛd
+                  vikalpadvayapratijñāyām āha, dvayor iti. vikalpayor iti śeṣaḥ ||1244||</p>
+            </div>
+            <div xml:id="TSP1245">
+               <p>vikalpayetyādinopasaṃharati ||1245||</p>
+               <lg xml:id="TS1245">
+                  <l>vikalpakam ato jñānasahabhāvyanubhūyate |</l>
+                  <l>tasmād indriyavijñānam akalpanām idaṃ sphuṭam ||1245||</l>
+               </lg>
+            </div>
+            <div xml:id="TSP1246">
+               <p><q type="reference" source="#PV" n="3.133" ana="critical">vikalpasahabhāvitvam
+                     asiddham iti kadācit <rs type="group" key="unknown" ana="critical">paro</rs>
+                     brūyāt</q>, atas tadāśaṅkayann āham krameṇetyādi| [p.375] </p>
+               <lg xml:id="TS1246">
+                  <l>krameṇaivopajāyante vijñānānīti cen matam |</l>
+                  <l>sakṛdbhāvābhimānas tu śīghravṛtter alātavat ||1246||</l>
+               </lg>
+               <p>yadi krameṇopajayante kathaṃ yugapat pravedyante ? ity āha, sakṛdbhāvābhimānas tv
+                  iti. alāta ivālātavat. yathā'lāte śīghrabhramaṇāt sakṛc cakrākārā pratītiḥ;
+                  taddarśanānāṃ ghaṭānāt; evaṃ jñānāṃ śīghrotpattitaḥ sakṛdbhāvābhimāna iti. atha
+                  vā, alātaśabdena viṣayiṇī jñāne viṣayopacārāt tadviṣayāṇi jñānāny ucyante.
+                  pūrvavad vatiḥ ||1246|| </p>
+            </div>
+            <div xml:id="TSP1247">
+               <p>neti pūrvapakṣaṃ pratikṣipati.</p>
+               <lg xml:id="TS1247">
+                  <l>na tadābhimukhībhūtabhāvanām ānuṣaṅgavān |</l>
+                  <l>vikalpo vidyate dṛśya <app>
+                        <lem source="#Śā">ity atroktaṃ</lem>
+                        <rdg source="#Kri">ityevoktaṃ</rdg>
+                     </app> na kiñcana ||1247||</l>
+               </lg>
+               <p>evaṃ manyate, na sakṛdbhāvaprasādhanamatra prakṛtam, kiṃ tarhi ? dhiyaḥ
+                  kalpanāvirahaḥ. sa cānyatra gatacittasyāpy abhimukhībhūtapadārthānubhavakāle
+                  tannāmasaṃsargiṇo vikalpasyopalabdhilakṣaṇaprāptasyānupalabdhyā sidhyatīti nātra
+                  kiñcid dūṣaṇam uktam. tathā hi, yadi nāma krameṇa jñāne saṃvedyete, na tu vikalpaḥ
+                  saṃvedyata iti na prakṛtasya vyāghātaḥ ||1247|</p>
+            </div>
+            <div xml:id="TSP1248">
+               <p>na cāyaṃ sakṛdbhāvābhimāno 'pi bhrānta ity ādarśayann āha, bhrāntir ityādi.</p>
+               <lg xml:id="TS1248">
+                  <l>bhrāntis tadabhimānaś ca tadvyaktaṃ ca nirantaram |</l>
+                  <l>tad eva cārthavijñānayaugapadyam ataḥ sphuṭam ||1248||</l>
+               </lg>
+               <p>"bhrāntir na" iti prakṛtaṃ sambandhanīyam. tadabhimāna iti. tasya,
+                  sakṛdbhāvasyābhimāna iti vigrahaḥ| bādhakapramāṇavaśād vibhrāntivyavasthānaṃ, na
+                  cātra bādhakam asti, yena bhrāntiḥ syāt. kathaṃ nāsti ? ity āha, tadvyaktaṃ ca
+                  nirantaram iti. tad ity abhimukhībhūtārthasaṃvedanaṃ
+                  nirantaraviṣayāntarāsaktacittasamakālaṃ spaṣṭam anubhūyate. tad eva cedṛśam
+                  arthavijñānaṃ pratyakṣam ucyata iti kuto bhrāntiḥ. ||1248||</p>
+            </div>
+            <div xml:id="TSP1249_1250_1251_1252">
+               <p>na kevalaṃ sakṛdbhāvaś ca bhrāntatvavyavasthāṃ prati na kiñcit sādhakam asti,
+                  pratyuta bādhakam astīti darśayann āha, nartakītyādi.</p>
+               <lg xml:id="TS1249">
+                  <l>nartakīdṛṣṭyavasthādāvakhilaṃ vedyate sakṛt |</l>
+                  <l>bahubhir vyavadhāne 'pi <app>
+                        <lem source="#Śā">bhrāntiḥ sā cāśuvṛttitaḥ</lem>
+                        <rdg source="#Kri">bhrāntiś ced āśuvṛttitaḥ</rdg>
+                     </app> ||1249||</l>
+               </lg>
+               <lg xml:id="TS1250">
+                  <l>latātālādibuddhīnām atyarthaṃ laghuvarttanam |</l>
+                  <l>sakṛd<app>
+                        <lem source="#Śā">bhāvābhimāno</lem>
+                        <rdg source="#Kri">bhavābhimāno</rdg>
+                     </app> 'taḥ kim atrāpi na vartate ||1250|| [p.376]</l>
+               </lg>
+               <q type="reference" source="#PV" n="3.138" ana="authoritative">
+                  <lg xml:id="TS1251">
+                     <l>śuddhe ca mānase kalpe vyavasīyeta na kramaḥ |</l>
+                     <l><app>
+                           <lem source="#Śā">tulyā</lem>
+                           <rdg source="#Kri">alpā</rdg>
+                        </app> ca sarvabuddhīnām āśuvṛttiś cirāsthiteḥ ||1251||</l>
+                  </lg>
+               </q>
+               <q type="reference" source="#PV" n="3.207" ana="authoritative">
+                  <lg xml:id="TS1252">
+                     <l>ataḥ sarvatra viṣaye na kramagrahaṇaṃ bhavet |</l>
+                     <l>sakṛdgrahaṇabhāsas tu bhavec chabdādibodhavat ||1252||</l>
+                  </lg>
+               </q>
+               <p>ekaikā dhīḥ pañcabhir dhībhir vyavadhīyamānāpi nartakīdarśanādyavasthāyām
+                  avyavahiteva pratibhāti. tathā hi yadaiva nartakīm utpaśyati tadaiva gītādiśabdaṃ
+                  śṛṇoti, karpūrādirasam āsvādayati, nāsikāpuṭavinyastakusumāmodaṃ jighrati,
+                  vyajanānīlādisparśaṃ, ca spṛśati vastrābharaṇādidānādi ca cintayati; tataś ca yadi
+                  bahubhir vyavadhāne 'pi buddhīnāṃ sakṛdbhāvabhrāntir āśūtpattibalād upajāyate,
+                  tadā latā tālaḥ; saro rasaḥ, ityevamādāv ekaikajñānavyavadhānād varṇaśrutīnām
+                  atyarthaṃ laghuvartanam astīti sakṛdvarṇapratibhāsaḥ prāpnoti. tataś ca saro rasa
+                  ityādau śabde śrūyamāṇe śrutibhedo 'rthapratītibhedaś ca na syāt.</p>
+               <p>kiñca, buddher vijātīyacakṣurādivijñānāvyavahite nānāvidyārthacintārūpe vikalpe
+                  samutpadyamāne śīghravṛttir astīti na kramavyavasāyaḥ prāpnoti. sarvāsāṃ ca
+                  buddhīnāṃ kṣaṇikatvena cirānavasthānād āśuvṛttir astīti kasyacid arthasya na
+                  kramavatīpratītiḥ syāt. śabdādibodhavad iti. nartakīprekṣāvasthāyāṃ
+                  śabdādisaṃvedanavat ||1249 1252||</p>
+            </div>
+            <div xml:id="TSP1253_1254_1255">
+               <p>yaś cāyam alātavad iti dṛṣṭāntaḥ sa sādhyavikala iti darśayann āha, alāte
+                  'pītyādi.</p>
+               <lg xml:id="TS1253">
+                  <l>alāte 'pisakṛdbhrāntiścakrābhāsā pravartate |</l>
+                  <l>na dṛśāṃ pratisandhānād vispaṣṭaṃ pratibhāsanāt ||1253||</l>
+               </lg>
+               <lg xml:id="TS1254">
+                  <l>tathā hi pratisandhānaṃ smṛtyaiva kriyate na tu |</l>
+                  <l>darśanena vyatītasya viṣayasyānavagrahāt ||1254||</l>
+               </lg>
+               <lg xml:id="TS1255">
+                  <l>yaścāsyā viṣayo nāsau vinaṣṭatvāt parisphuṭaḥ |</l>
+                  <l>tataḥ parisphuṭo nāyaṃ cakrābhāsaḥ prasajyate ||1255||</l>
+               </lg>
+               <p>yato neyaṃ mānasī bhrāntiḥ kramavartinī darśanāni ghaṭayantī samupajāyate, kiṃ
+                  tarhi ? sakṛdekaivendriyajā cakrākārā bhrāntiḥ sāmagrīviśeṣabalād utpadyate;
+                  vispaṣṭapratibhāsatvāt. <q type="reference" source="#PV" n="3.283ab"
+                     ana="authoritative">na hi vikalpānubaddhasya spaṣṭapratibhāsitvaṃ yuktam.</q>
+                  tathā hi, ghaṭanā [p.377] kriyamāṇā spṛtyaiva kriyate, nendriyajñānena; tasya
+                  vastusannidhānabalabhāvino 'tītārthagrahaṇasāmarthyāt. yaś cāsyāḥ smṛter viṣayaḥ;
+                  nāsau parisphuṭaḥ; kasmāt? vinaṣṭatvāt. tasmād aspaṣṭābhatvaprasaṅgānneyaṃ mānasī
+                  bhrāntiḥ, kiṃ tarhi ? indriyajā, iti sādhyavikalo dṛṣṭāntaḥ ||1253 1255||</p>
+            </div>
+            <div xml:id="TSP1256_1257_1258_1259">
+               <p>evaṃ pratyakṣato dhiyaḥ kalpanāvirahaṃ pratipādya sāmpratamanumānataḥ
+                  pratipādayati, yadi cetyādi.</p>
+               <lg xml:id="TS1256">
+                  <l>yadi cāpy asya bhāvasya yadrūpasthitikāraṇam |</l>
+                  <l>na vidyate na tattvena sa vyavasthāpyate budhaiḥ ||1256||</l>
+               </lg>
+               <lg xml:id="TS1257">
+                  <l>avidyamānasāsnādir yathā karko gavātmanā |</l>
+                  <l><app>
+                        <lem source="#Śā">viśeṣaṇaviśiṣṭārthagrahaṇaṃ</lem>
+                        <rdg source="#Kri">viśeṣaṇaviśiṣṭārthe grahaṇaṃ</rdg>
+                     </app> na ca vidyate ||1257||</l>
+               </lg>
+               <lg xml:id="TS1258">
+                  <l>savikalpakabhāvasya sthiter ākṣe nibandhanam |</l>
+                  <l>vipakṣaḥ śābaleyādir anyathātiprasajyate ||1258||</l>
+               </lg>
+               <lg xml:id="TS1259">
+                  <l>na cāprasiddhatā hetor jātyādeḥ pratiṣedhataḥ |</l>
+                  <l>bhedena cāparicchedān na cāsty evaṃ viśeṣaṇam ||1259||</l>
+               </lg>
+               <p>prayogaḥ, yasya yad rūpaṃ vyavasthitau nimittaṃ nāsti, na tat tathā prekṣāvadbhir
+                  vyavahartṛbhir vyavasthāpyate, tadyathā,
+                  avidyamānagoprajñaptinimittabhūtakakudādisamudāyaḥ karko gotvena. nāsti ca
+                  pratyakṣasya nīlādyasādhāraṇaviṣayabalenotpadyamānasya
+                  savikalpakabhāvavyavasthitau viśeṣaṇaviśiṣṭārthagrahaṇaṃ nimittam iti
+                  karaṇānupalabdhiḥ. vaidharmyeṇa śābaleyabāhuleyādayaḥ. sarvathā sarvasya
+                  vyavasthānaprasaṅgo vyavasthāpayituś cāprekṣāpūrvakāritāprasaṅgo bādhakaṃ pramāṇam
+                  iti saṃkṣepārthaḥ. karkaḥ = śuklo 'śvaḥ. jātyāder iti. viśeṣasyeti śeṣaḥ. santu
+                  nāma vastubhūtā jātyādayaḥ, tathā'pi nāsiddhateti darśayann āha, <app>
+                     <lem source="#Śā">bheden cāparicchedād</lem>
+                     <rdg source="#Kri">bhedenāparicchedād</rdg>
+                  </app> iti. viśeṣyatvenābhimatād rūpāder ityadhyāhāryam. yadi nāma
+                  bhedenāparicchedo jātaḥ, tathāpi viśeṣaṇaṃ kasmān na bhavati? ity āha, na cāsty
+                  evam iti. bhedenāparicchinnam. tasmād viśeṣaṇaviśeṣitārthagrahaṇaṃ na vidyata ity
+                  asya hetor nāsiddhatā ||1256 1259||</p>
+            </div>
+            <div xml:id="TSP1260_1261_1262">
+               <p>syād etan, mā bhūj jātyādikaṃ viśeṣaṇaṃ, śabdasvarūpam eva tu viśeṣaṇaṃ bhaviṣyati
+                  ? ity āha, nāmāpītyādi. [p.378]</p>
+               <lg xml:id="TS1260">
+                  <l>nāmāpi vācakaṃ naiva yacchabdasya svalakṣaṇam |</l>
+                  <l>svalakṣaṇasya vācyatvavācakatve hi dūṣite ||1260||</l>
+               </lg>
+               <lg xml:id="TS1261">
+                  <l>adhyāropitam evāto vācyavācakam iṣyate |</l>
+                  <l>anāropitam arthaṃ ca pratyakṣaṃ pratipadyate ||1261||</l>
+               </lg>
+               <lg xml:id="TS1262">
+                  <l>svalakṣaṇasya sadbhāve sadbhāvāt tadabhāvataḥ |</l>
+                  <l>vyavadhānādi bhāve ca tasyāpi vyatirekataḥ ||1262||</l>
+               </lg>
+               <p>na hi svalakṣaṇe saṅketaḥ, nāpi śabdasvalakṣaṇe, tayor vyavahārakāle 'nanvayāt. na
+                  ca svalakṣaṇavyatirekeṇānyacchabdasvarūpam asti. na cāsaṅketito 'rthaḥ śabdena
+                  yojyate; atiprasaṅgāt. nāpi śabdayojanam antareṇa vikalpaḥ | tasmād adhyāropita
+                  eva vācyavācakabhāvaḥ, na pāramārthikaḥ. syād etat, āropitam evārthaṃ tarhi
+                  pratyakṣaṃ pratipadyamānaṃ savikalpakaṃ bhaviṣyati ? ity āha, anāropitam ityādi.
+                  tadabhāvata iti. tasyāpi vyatirekata iti sambandhaḥ. tasya svalakṣaṇasyābhāvāt,
+                  tasyāpi pratyakṣasya vyatirekato 'bhāvād iti yāvat. kadā svalakṣaṇasyābhāvaḥ ? ity
+                  āha, vyavadhānādīti. ādiśabdena deśakālaviprakarṣādiḥ ||1260 1262||</p>
+            </div>
+            <div xml:id="TSP1263">
+               <p>aśakyasamaya ityādinā pramāṇāntaram apy āha</p>
+               <q type="emendation" ana="authoritative" source="#PV" n="3.249" resp="#Funayama1992">
+                  <lg xml:id="TS1263">
+                     <l>aśakyasamayo hy ātmā nīlādīnām ananyabhāk |</l>
+                     <l>teṣām ataś ca saṃvittir nābhijalpānuṣaṅgiṇī ||1263||</l>
+                  </lg>
+               </q>
+               <p>nīlādīnām ātmā = svabhāvaḥ, aśakyasamayaḥ = aśakyasaṅketaḥ. katham iti praśne
+                  kāraṇam āha, ananyabhāg iti. ananyabhāk = asādhāraṇaḥ.
+                  vyavahārakālāpratyupasthāyīti yāvat. vyavahārārthatvāt samayasyeti nātra
+                  śabdasaṅketaḥ.</p>
+               <p>
+                  <q type="emendation" ana="authoritative" source="#PVP" n="3.249"
+                     resp="#Funayama1992">kiñ ca, viṣayīkṛte cāyaṃ samayo bhavati nāviṣayīkṛte, na
+                     tāvad anutpannaṃ pratyakṣaṃ nīlādyātmānaṃ viṣayīkaroti, utpannaṃ cābhilāpam
+                     ādāya yojayet| utpattikāle 'bhilāpagrahaṇakāle ca kṣaṇikatvān na viṣayeṇāpi
+                     pratyakṣaṃ viṣayīti kena kutra yojanam ity ato 'py aśakyasamayo nīlādīnām ātmā.
+                     teṣām iti nīlādīnām. nābhijalpānuṣaṅgiṇīti. nāviṣṭābhilāpā. tatra prayogaḥ, yad
+                     yatrāgṛhītasamarthaṃ na tat tatra savikalpakaṃ bhavati, tadyathā,
+                     cakṣurvijñānaṃ gandhe, agṛhītasamayaṃ ca pratyakṣaṃ nīlādyātmanīti
+                     vyāpakaviruddhopalambhaḥ ||1263||</q>
+               </p>
+            </div>
+            <div type="vāda" xml:id="vāda_Sumati_1264-1284" ana="#Sumati">
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Sumati_1264-1269" ana="#Sumati">
+                  <div xml:id="TSP1264_1265_1266">
+                     <p>[p.379] nanv ityādinā prathame hetau <rs type="person" key="Sumati"
+                           ana="critical">sumateḥ</rs>
+                        <rs type="group" key="Digambara" ana="critical">digambarasya</rs>
+                        matenāsiddhatām āśaṅkate|</p>
+                     <lg xml:id="TS1264">
+                        <l>nanu nāmādiktaṃ mā bhūt tasya grāhyaṃ viśeṣaṇam |</l>
+                        <l>tathāpy asiddhatā hetor naiva vyāvartate yataḥ ||1264||</l>
+                     </lg>
+                     <lg xml:id="TS1265">
+                        <l>arthāntaravyavacchinnarūpeṇāgrahaṇaṃ yadi |</l>
+                        <l>arthamātragraho vā syād agraho vā ghaṭe yathā ||1265||</l>
+                     </lg>
+                     <lg xml:id="TS1266">
+                        <l>ghaṭāntaravyavacchinnarūpeṇāgrahaṇaṃ yadi |</l>
+                        <l>ghaṭamātragraho vā syād agraho vā ghatasya vai ||1266||</l>
+                     </lg>
+                     <p><rs type="person" key="Sumati" ana="neutral">sa</rs> hi
+                        sāmānyaviśeṣātmakatvenobhayarūpaṃ sarvaṃ vastu varṇayati. sāmānyaṃ ca
+                        dvirūpam, 1. viśeṣeṇāvicchinnaṃ yathā gotvādi, 2. anavacchinnaṃ yathā
+                        sattāvastutvādi. tatra yad anavacchinnam ekarūpaṃ tad ālocanāmātrasya
+                        nirvikalpakapratyakṣasya gocaraḥ; itarat punaḥ savikalpakasya, ity eṣā <rs
+                           type="person" key="Sumati" ana="critical">tasya</rs> prakriyā. <rs
+                           type="person" key="Kumārila" ana="critical">kumārilaḥ</rs> tu
+                        ālocanājñānaṃ nirvikalpakaṃ vyaktisvalakṣaṇaviṣayaṃ varṇayati.
+                        sāmānyaviṣayaṃ tu savikalpakaṃ pratyakṣam. tatra <rs type="person"
+                           key="Sumati" ana="critical">sumatiḥ</rs>
+                        <rs type="person" key="Kumārila" cert="medium" ana="critical"
+                           >kumārilādy</rs>abhimatālocanāmātrapratyakṣavicāraṇārtham āha, <rs
+                           type="person" key="Kumārila" cert="medium" ana="critical">tadvādī</rs>daṃ
+                        praṣṭavyaḥ, kiṃ tad indriyasya puraḥsthitam arthamātraṃ svena
+                        rūpeṇārthāntarāsambhavināviśiṣṭaṃ gṛhyate ? <app>
+                           <lem source="#Śā">uta</lem>
+                           <rdg source="#Kri"/>
+                        </app> neti ? yady asau brūyāt, neti, atrocyate,
+                        arthāntaravyavacchinnarūpeṇāgrahaṇaṃ yadi = vivakṣitād arthād yad
+                        arthāntaraṃ, tato vyavacchinnam = tatrāvidyamānaṃ vivakṣitārthastham rūpam =
+                        svabhāvaḥ, tena viśiṣṭasya yadi tasyārthasyāgrahaṇam iṣyate, tadā
+                        tadarthamātragraho vā syāt, yat tad arthamātram arthāntarāsambhavi
+                        svabhāvarahitaṃ tasyaiva grahaṇaṃ syāt. atha tad api na gṛhyate, tadā'graho
+                        vā = agrahaṇam eva syāt.</p>
+                     <p>ghaṭe yatheti nidarśanam uktam, tac chlokāntareṇa vyācaṣṭe, ghaṭāntaretyādi.
+                        avadhīkṛtaghaṭāsambhavinā rūpeṇa yadi tasya ghaṭasyāgrahaṇam, tadā
+                        ghaṭamātragraho vā syāt = kenacid rājatatāmrādinā viśeṣeṇāviśiṣṭasya
+                        ghaṭamātrasya grahaṇaṃ syāt. <app>
+                           <lem source="#Śā">atha</lem>
+                           <rdg source="#Kri"/>
+                        </app> ghaṭamātrasyāpi grahaṇaṃ na bhavati, tadā kasyacid apy abhimatasyāpi
+                        na grahaṇaṃ syād ity agraho vā ghaṭasya vai. evam atrāpi dārṣṭāntike
+                        viśeṣāgrahaṇe 'rthamātragrahaṇaṃ na grahaṇaṃ vā syād ity ekāntaḥ ||1264 1265
+                        1266||</p>
+                  </div>
+                  <div xml:id="TSP1267">
+                     <p>atha pūrvakaḥ pakṣaḥ, atrāha, grāhyāntaretyādi.</p>
+                     <lg xml:id="TS1267">
+                        <l>grāhyāntaravyavacchinnaṃ bhāvena grāhi cen matam |</l>
+                        <l>savikalpakavijñānaṃ bhaved vṛkṣādibodhavat ||1267||</l>
+                     </lg>
+                     <p>[p.380] yadi paratrāsambhavinā svarūpeṇa viśiṣṭārthagrāhīndriyajñānam
+                        abhipretam, tadā savikalpakaṃ prāpnoti; kenacid rūpeṇa viśiṣṭārthagrāhitvāt,
+                        vṛkṣo'yam ityādibodhavat ||1267||</p>
+                  </div>
+                  <div xml:id="TSP1268">
+                     <p>syān matam, "nārthamātraṃ nāma kiñcid asti yat svarūpeṇa viśiṣya gṛhyate,
+                        kiṃ tarhi ? yat tadviśiṣṭaṃ rūpaṃ <rs type="person" key="Sumati"
+                           ana="neutral">tava</rs>
+                        <rs type="person" key="Kumārila" ana="neutral">mama</rs> viśeṣābhimataṃ tad
+                        evāsti gṛhyate ca" iti, ata āha, viśeṣo 'spaṣṭasāmānyo na ca kaścana vidyata
+                        iti.</p>
+                     <lg xml:id="TS1268">
+                        <l>viśeṣo 'spṛṣṭasāmānyo na ca kaścana vidyate |</l>
+                        <l>grahaṇe cet tadaspaṣṭaṃ vibhāvatvān na gṛhyate ||1268||</l>
+                     </lg>
+                     <p>atra mātraṃ nāma sāmānyam ucyate, yat tat sattety ākhyāyate, tannirapekṣo na
+                        kaścid viśeṣo vidyate, yo gṛhyeta tatra. etat syāt, <rs type="person"
+                           key="Sumati" ana="critical">tvanmatyā</rs> yady api tad asti sāmānyaṃ,
+                        grahaṇakāle tu tan na spṛśyate? ity āha, grahaṇe cet tadaspaṣṭaṃ vibhāvatvān
+                        na gṛhyata iti. grahaṇakāle yadi tat sāmānyaṃ sattākhyaṃ indriyajñānena na
+                        spṛśyate, viśeṣamātram eva gṛhyate, tadā tadviśeṣamātraṃ gṛhyamāṇaṃ
+                        bhāvarahitaṃ sattākhyasvabhāvaravikalaṃ niḥsvabhāvaṃ prāptam iti
+                        nendriyajñānagrāhyaṃ syāt, vibhāvatvāt = vigatabhāvatvāt, viyatpuṣpavad iti
+                        ||1268||</p>
+                  </div>
+                  <div xml:id="TSP1269">
+                     <lg xml:id="TS1269">
+                        <l>viśiṣṭaviṣayo bodhaḥ kalpanā neti sāhasam |</l>
+                        <l>na viśeṣaṇasambandhād ṛte vaiśiṣṭyasambhavaḥ ||1269||</l>
+                     </lg>
+                     <p>tasmād viśiṣṭaviṣayo bodho 'tha ca kalpanā nāstīti sāhasam etad <rs
+                           type="group" key="Bauddha">bhavatāṃ</rs>
+                        pramāṇabādhitamabhyupagacchatāmityupasaṃhāraḥ. atraivopapattim āha, na
+                        viśeṣaṇetyādi. na hi daṇḍasambandhamantareṇa tadvān bhavati, tadvad viśiṣṭo
+                        'pi viśeṣasambandham antareṇa na yukta iti bhāvaḥ. tasmād yad
+                        viśeṣaṇasambandhagrahaṇam, tat savikalpakam iti. prayogaḥ,
+                        vivādasapadībhūtaṃ viśiṣṭaviṣayaṃ jñānaṃ savikalpakam, viśiṣṭaviṣayatvāt,
+                        paṭo 'yam ityādijñānavad iti ||1269||</p>
+                  </div>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Sumati_1270-1274" ana="#Sumati">
+                  <div xml:id="TSP1270">
+                     <p>sajātīyetyādinā pratividhatte.</p>
+                     <lg xml:id="TS1270">
+                        <l>sajātīyavijātīyavyāvṛttārthagrahān mataḥ |</l>
+                        <l>viśiṣṭaviṣayo bodho na viśeṣaṇasaṅgate ||1270||</l>
+                     </lg>
+                     <p>yad atra yadi vyatiriktaviśeṣaṇasambandhāt<app>
+                           <lem source="#Śā"/>
+                           <rdg source="#Kri">iti</rdg>
+                        </app> "viśiṣṭaviṣayatvāt" iti hetvarthaḥ, tadā na siddho hetuḥ, tathā hi na
+                           <rs type="group" key="Bauddha">bauddhasya</rs> viśeṣaṇaṃ nāma kiñcid
+                        asti, yena [p. 381] tatsambandhagrahaṇād viśiṣṭaviṣayo bodhaḥ syāt, kiṃ
+                        tarhi ? sajātīyavijātīyebhyo vyāvṛttasyārthamātrasya grahāt = grahaṇān mataḥ
+                        = <app>
+                           <lem source="#Śā">iṣṭaḥ</lem>
+                           <rdg source="#Kri"/>
+                        </app> viśiṣṭaviṣayo bodhaḥ ||1270||</p>
+                  </div>
+                  <div xml:id="TSP1271">
+                     <p>kathaṃ tarhi viśiṣtatvam asya, vaiśiṣṭyam asya, ityādi vyapadeśo
+                        vyatirekīva? ity āha, bheda ityādi.</p>
+                     <lg xml:id="TS1271">
+                        <l>bhedo vaiśiṣṭyam uktaṃ hi na viśeṣaṇasaṅgatiḥ |</l>
+                        <l>bhinnam ity api tadvācā nānuviddhaṃ pratīyate ||1271||</l>
+                     </lg>
+                     <p>bhedaḥ = sajātīyavijātīyebhyo vyāvṛttiḥ; sā ca nānyā vyāvṛttād bhāvāt bhāva
+                        eva hi <q type="reference" source="#PV" n="1.61" ana="authoritative"
+                           >bhedāntarapratikṣepeṇa</q> tanmātrajijñāsāyāṃ tathocyate. syād etat,
+                        yadi vijātīyasajātīyebhyo bhinnasya vastuno grahaṇam, niyamena tarhi
+                        savikalpakaṃ grahaṇaṃ prāptam, "bhinnam etat" ityevamākārapravṛttatvāt,
+                        anyathā kathaṃ tadviṣayaṃ syāt, yady anyākārapravṛttaṃ bhavet. na hy
+                        anyākārapravṛttaṃ tadviṣayaṃ yuktam; atiprasaṅgāt ? ity āśaṅkyāha, bhinnam
+                        ity api tad ityādi ||1271||</p>
+                  </div>
+                  <div xml:id="TSP1272">
+                     <p>kathaṃ tarhi bhinnam ity abhidhīyate ? ity āha, svabhāvāparetyādi.</p>
+                     <lg xml:id="TS1272">
+                        <l>svabhāvāparaniḥśeṣapadārthavyatirekiṇi |</l>
+                        <l>gṛhīte sati tasmiṃs tu vikalpo jāyate tathā ||1272||</l>
+                     </lg>
+                     <p>svabhāvād apare ye niḥśeṣāḥ padārthās tebhyo vyatirekiṇi = vyāvṛtte gṛhīte
+                        saty asādhāraṇanīlādyākārapratibhāsanāt paścād bhedādhyavasāyī
+                        śabdākārānusmṛto bhinnam ity abhilapann utpadyate vikalpaḥ. na ced astv
+                        abhilāpasvabhāvaṃ tat saṃsṛṣṭātmatattvaṃ vā, yena "bhinnam" ity "abhinnam"
+                        iti nāmnā saṃyojyagrahaṇe <app>
+                           <lem source="#Śā">saty agṛhītaṃ</lem>
+                           <rdg source="#Kri">sati gṛhītaṃ</rdg>
+                        </app> syāt. tasmād asiddha eva hetuḥ ||1272||</p>
+                  </div>
+                  <div xml:id="TSP1273">
+                     <p>atha vyāvṛttivaśād viśiṣṭa iti kṛtvā "viśiṣṭaviṣayatvāt" iti hetvarthaḥ,
+                        nārthāntaraviśeṣaṇasambandhāt, tadā'pi svato naikāntiko hetur iti darśayann
+                        āha, viśeṣaṇetyādi.</p>
+                     <lg xml:id="TS1273">
+                        <l>viśeṣaṇānavacchinnaṃ <rs type="person" key="Sumati" cert="medium"
+                              ana="critical">paraiḥ</rs> sāmānyam iṣyate |</l>
+                        <l>nirvikalpakavijñānagrāhyaṃ tatrāpy ataḥ samam ||1273||</l>
+                     </lg>
+                     <p>dvirūpaṃ hi sāmānyam, viśeṣaṇāvacchinnarūpam, anavacchinnarūpaṃ ca. tatra
+                        yad anavacchinnarūpaṃ tan nirvikalpakavijñānagrāhyam iṣṭam. tatrāpi =
+                        sāmānye. ata etad vikalpakavijñānagrāhyatvaṃ tulyam ||1273||</p>
+                  </div>
+                  <div xml:id="TSP1274">
+                     <p>[p.382] katham ? ity āha, viśeṣād dhītyādi.</p>
+                     <lg xml:id="TS1274">
+                        <l>viśeṣād dhi viśiṣṭaṃ tat sāmānyam avagamyate |</l>
+                        <l>tadgrāhakam ataḥ prāptaṃ vijñānaṃ savikalpakam ||1274||</l>
+                     </lg>
+                     <p><app>
+                           <lem source="#Śā">yasmād</lem>
+                           <rdg source="#Kri">yad dhy asmād</rdg>
+                        </app> viśeṣād viśiṣṭam = vyāvṛttaṃ, tat sāmānyaṃ pratīyate; anyathā
+                        sāmānyam eva na syāt, tato yadi na vyāvarteta. tataś cāsyāpi sāmānyasya
+                        viśeṣād vyāvṛttasya grāhakaṃ vijñānaṃ savikalpakaṃ prāpnoti;
+                        viśiṣṭaviṣayatvāt | na ca bhavati <rs type="person" key="Sumati"
+                           ana="critical">tvanmatena</rs>. tasmāt svato 'naikānta iti ||1274||</p>
+                  </div>
+               </div>
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Sumati_1275-1276" ana="#Sumati">
+                  <div xml:id="TSP1275">
+                     <p>atra kila <rs type="person" key="Sumati" ana="critical">tenaiva sumatinā
+                           svayam</rs> āśaṅkya sāmānyena hetor anaikāntikatvaṃ parihṛtam, tad
+                        evādarśayati, nirviśeṣam ityādi.</p>
+                     <lg xml:id="TS1275">
+                        <l>nirviśeṣaṃ gṛhītaś ced bhedaḥ sāmānyam ucyate |</l>
+                        <l>tato viśeṣāt sāmānyaviśiṣṭatvaṃ na yujyate ||1275||</l>
+                     </lg>
+                     <p>na hi sāmānyaṃ kiñcid asti viśeṣebhyo vyatiriktasvarūpam, yat svarūpeṇa
+                        viśiṣṭaṃ gṛhyamāṇaṃ savikalpakavijñānagocaraḥ syāt, kin tu nirviśeṣaṃ gṛhītā
+                        bhedā eva sāmānyam ity ucyante. pratiniyatasvarūpanirapekṣāḥ pratīyamānāḥ
+                        sāmānyaśabdābhidheyā iti yāvat. tataś ca kutas tasmād viśeṣāt sāmānyasya
+                        viśiṣṭatvam, yena tadgrāhakasya savikalpanā bhavet ||1275||</p>
+                  </div>
+                  <div xml:id="TSP1276">
+                     <p>kathaṃ tarhi sāmānyaviśeṣayor asaṅkīrṇā vyavasthā? ity āha,
+                        vaiṣamyetyādi.</p>
+                     <lg xml:id="TS1276">
+                        <l>vaiṣamyasamabhāvena jñāyamānā ime kila |</l>
+                        <l>prakalpayanti sāmānyaviśeṣasthitim ātmani ||1276||</l>
+                     </lg>
+                     <p>eta eva hi bhedāḥ samaviṣamatayā samprajñāyamānā yathākramaṃ
+                        sāmānyaviśeṣābhidhānābhidheyatām anubhūya sāmānyaviśeṣavyavahārayor
+                        viṣayabhedaṃ prakalpayanti ||1276||</p>
+                  </div>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Sumati_1277-1284" ana="#Sumati">
+                  <div xml:id="TSP1277_1278">
+                     <p>vaiṣamyasamabhāvo 'yam ityādinā pratividhatte.</p>
+                     <lg xml:id="TS1277">
+                        <l>vaiṣamyasamabhāvo 'yaṃ pravibhakto yadīṣyate |</l>
+                        <l>sāmānyasya viśiṣṭatvaṃ tadavasthaṃ viśeṣataḥ ||1277||</l>
+                     </lg>
+                     <lg xml:id="TS1278">
+                        <l>athāvibhakta evāyam asaṅkīrṇā sthitiḥ katham |</l>
+                        <l><app>
+                              <lem source="#Śā">anyo'nyaparihāreṇa</lem>
+                              <rdg source="#Kri">anyonyāparihāreṇa</rdg>
+                           </app> sthiter gatyantaraṃ na ca ||1278||</l>
+                     </lg>
+                     <p>pravibhakta iti amiśraḥ. anyad eva sāmānyam anya eva viśeṣa iti yāvat.
+                        [p.383] sāmānyasya viśeṣato viśiṣṭatvam ity upalakṣaṇam. tathā viśeṣasyāpi
+                        sāmānyato viśiṣṭatvam eva; dvayor api parasparasvabhāvavivekena
+                        pravibhaktatvāt. asaṅkīrṇā sthitir iti. amiśrībhūtā.</p>
+                     <p>
+                        <seg>yathoktaṃ tenaiva <rs type="person" key="Sumati" ana="critical"
+                              >sumatinā</rs>
+                           <q type="quotation" source="unknown" who="#Sumati" ana="critical"
+                              >sattādisāmānyasvabhāvānuviddha eva viśeṣaḥ sākṣāt kriyate nānyathā,
+                              tato viśiṣṭaviṣayatvam eva viśeṣyasya yuktaṃ rūpam, sāmānyaṃ punar
+                              aśeṣanirapekṣaṃ sākṣāt kartuṃ śakyata ity aviruddham
+                              asyāvikalpaviṣayatvam iti. iyam asaṅkīrṇā sthir na syāt. na
+                              pravibhakto nāpravibhakta iṣyata</q> iti</seg>
+                     </p>
+                     <p>ced āha anyo'nyetyādi. anyo'nyāparihārasthitilakṣaṇānām
+                        ekasvabhāvaniṣedhasyāparavidhināntarīyakatvān na rāśyantaram asti ||1277
+                        1278|| </p>
+                  </div>
+                  <div xml:id="TSP1279_1280">
+                     <p>api ca nirviśeṣaṃ gṛhītā bhedā iti parasparavyāhatam iti darśayann āha,
+                        viśeṣātmātirekeṇetyādi.</p>
+                     <lg xml:id="TS1279">
+                        <l>viśeṣātmātirekeṇa nāparaṃ bhedalakṣaṇam |</l>
+                        <l>tadrūpāsparśane teṣu grahaṇaṃ katham ucyate ||1279||</l>
+                     </lg>
+                     <lg xml:id="TS1280">
+                        <l>tadrūpasparśane cāpi bhedāntaravibhedinaḥ |</l>
+                        <l>gṛhītā iti vijñānaṃ prāptam eṣu vikalpakam ||1280||</l>
+                     </lg>
+                     <p>bhedebhyo hi nānyo viśeṣaḥ, tasya ca viśeṣasya sāmānyagrāhiṇā
+                        jñānenāsaṃsparśe kathaṃ bhedās tena gṛhītā bhaveyuḥ,
+                        agṛhītasvabhāvāvyatirekāt te 'py agṛhītā eveti bhāvaḥ. atha gṛhītā iti matam
+                        ? tadā tadrūpasaṃsparśane = bhedarūpasaṃsparśane grahaṇe, gṛhītāvyatirekād
+                        gṛhītasvabhāvavad viśeṣo 'pi gṛhīta eveti, eṣu = bhedeṣu, yat
+                        sāmānyaviṣayatvenābhimataṃ jñānaṃ tad vikalpakaṃ prāptam ||1279 1280||</p>
+                  </div>
+                  <div xml:id="TSP1281_1282">
+                     <p>kiṃ ca, mā bhūn nāma sāmānyasya viśeṣāvyatirekāt tato viśiṣṭatvaṃ, tathāpi
+                        śaśaviṣāṇāder nirūpākhyāt tasya viśiṣṭatvam asty eveti vikalpajñānagrāhyaṃ
+                        syāt, na ca bhavati, tasmād anaikāntikatvam eveti darśayann āha, nirupākhyāc
+                        cetyādi.</p>
+                     <lg xml:id="TS1281">
+                        <l>nirupākhyāc ca sāmānyaṃ viśeṣaṃ sampratīyate |</l>
+                        <l>ato vikalpakajñānagrāhyaṃ tad api <rs type="person" key="Sumati"
+                              ana="critical">te</rs> bhavet ||1281||</l>
+                     </lg>
+                     <lg xml:id="TS1282">
+                        <l>nāsatas tadviśiṣṭaṃ cet kim idānīṃ tadātmakam |</l>
+                        <l>no cet tathāpi vaiśiṣṭyaṃ tasmād asya na kiṃ matam ||1282||</l>
+                     </lg>
+                     <p>syād etat, sāmānyasyābhāvato na viśeṣaḥ nāpi sādṛśyam. tathā hi [p.384] yan
+                        na kiñcit so 'bhāvaḥ kalpyate, tac ca tādṛśaṃ sāmānyato naiva viśiṣṭam, nāpi
+                        samaṃ; bhāvatvaprasaṅgāt. tathā hi, yadi tac chūnyaṃ sāmānyato viśiṣṭaṃ syāt
+                        tad api vastv eva syāt. na hy avastuno viśeṣākhyasvabhāvaḥ sambhavati, na ca
+                        viśeṣākhyaṃ svabhāvam antareṇa viśiṣṭaṃ <app>
+                           <lem source="#Kri">śakyaṃ vaktum</lem>
+                           <rdg source="#Śā"/>
+                        </app>, nāpi samam; vastutvaprasaṅgāt. na hy avastunaḥ kenacit samānaṃ rūpaṃ
+                        bhavati, na ca samānarūpam antareṇa samaṃ yuktam; atiprasaṅgāt. tasmāt
+                        sāmānyasya śūnyam avadhiṃ kṛtvā na samatvaṃ viśiṣṭatvaṃ vā yuktam. tathā hi,
+                        yo yam avadhiṃ kṛtvā samo viśiṣṭo vā bhavati, tena so 'py avadhiḥ samo
+                        viṣamaś ca dṛśyate. yadi hi so 'vadhis tena samo viṣamo vā na dṛśyeta, itaro
+                        'py avadhimān samo viṣamo vā na dṛśyeta ||1281 1282||</p>
+                  </div>
+                  <div xml:id="TSP1283_1284">
+                     <p><seg><q type="quotation" source="unknown" who="#Sumati" ana="critical">kiṃ
+                              ca, nābhāvo nāma kaścid bhāvavyatirikto 'sti bhāva eva tu bhāvāntaraṃ
+                              na bhavatīty abhāva akhyāyate, tat kuto 'sya vaiśiṣṭyam</q> ity etat
+                           sarvaṃ <rs type="person" key="Sumati" ana="critical">sumatinā</rs> uktam
+                           āgūryāha</seg>, atadātmakam evedam ityādi</p>
+                     <lg xml:id="TS1283">
+                        <l>atadātmakam evedaṃ vaiśiṣṭyaṃ vastuno 'pi hi |</l>
+                        <l>nāsadrūpaṃ ca sāmānyaṃ tadviśiṣṭaṃ na te katham ||1283||</l>
+                     </lg>
+                     <lg xml:id="TS1284">
+                        <l>tasmāt svalakṣaṇe jñānaṃ yat kiñcit sampravartate |</l>
+                        <l>vākpathātītaviṣayaṃ sarvaṃ tannirvikalpakam ||1284||</l>
+                     </lg>
+                     <p>vastuno 'pi hi sakāśād yad avastuno viśiṣṭatvaṃ tat khalu nānyat kiñcit, kiṃ
+                        tarhi ? tattvaniṣedhaḥ, atadātmatvam eva, lakṣaṇabheda iti yāvat. tac cāsato
+                        'pi śaśaviṣāṇādeḥ sakāśāt sāmānyasya tulyam eva. tathā hi, asacchaśaviṣāṇādi
+                        sarvārthakriyāvirahalakṣaṇaṃ, sāmānyaṃ tu na tatheṣṭam iti vispaṣṭam asya
+                        tato vaiśiṣṭyam. tataś cāsato 'pi sakāśād vaiśiṣṭyaṃ syāt, na ca
+                        vastutvaprasaṅgo 'sata iti yat kiñcid etat.</p>
+                     <p>
+                        <seg>yad uktam <q type="quotation" source="unknown" who="#Sumati"
+                              ana="critical">nābhāvo nāmānya eva</q> ityādi</seg>
+                     </p>
+                     <p>tatra <rs type="person" key="Sumati" ana="critical">tena</rs>
+                        <rs type="person" key="Sumati" ana="critical">sva</rs>bhāṣitasyaivārtho na
+                        vivecitaḥ. <seg>tathā hi, <q type="quotation" source="unknown" who="#Sumati"
+                              ana="critical">bhāva eva tu bhāvāntaraṃ na bhavati</q> ity ukte
+                           bhāvāntarāt tasya viśeṣa ukto bhavati</seg>, tato vyāvṛtti<app>
+                           <lem source="#Śā">saṃvarṇanāt</lem>
+                           <rdg source="#Kri">saṅkīrtanāt</rdg>
+                        </app>. tad etad dhy ānyavijṛmbhitam ity alaṃ prasaṅgena.</p>
+                     <p>tasmād ityādinā pramāṇaphalopasaṃhāraḥ ||1283 1284||</p>
+                  </div>
+               </div>
+            </div>
+            <div type="vāda" xml:id="vāda_Kumārila_1285-1304" ana="#Kumārila">
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Kumārila_1285-1291" ana="#Kumārila">
+                  <div xml:id="TSP1285">
+                     <p>asti hy ālocanājñānam ityādinā <rs type="person" key="Kumārila"
+                           ana="critical">kaumārilamatopadarśanena</rs> "yasya yadrūpavyavasthitau
+                        nimittaṃ nāsti" ityādau prayoge hetoḥ pakṣaikadeśāsiddhatvam āśaṅkate.
+                        [p.385]</p>
+                     <q type="quotation" source="#ŚV" n="pratyakṣa_112" ana="critical">
+                        <lg xml:id="TS1285">
+                           <l>asti hy ālocanājñānamādyaṃ cen nirvikalpakam |</l>
+                           <l>bālamūkādivijñānasadṛśaṃ śuddhavastujam ||1285||</l>
+                        </lg>
+                     </q>
+                     <p>tathā hi, sarvaṃ pratyakṣaṃ, pakṣīkṛtam, tatra ca sarvatra pratyakṣākhye
+                        dharmiṇi savikalpakavyavasthitau nāsti ca viśeṣaṇaviśiṣṭārthagrahaṇaṃ
+                        nimittam ity asya hetor asiddhiḥ; ālocanājñānavyatirekeṇānyatra pratyakṣe
+                        sāmānyādiviśeṣaṇaviśeṣṭārthagrahaṇasya vidyamānatvāt. <seg><q
+                              type="reference" source="unknown" ana="critical" who="#Kumārila"
+                              >athālocanājñānam eva pratyakṣīkṛtya hetur abhidhīyate tadā
+                              siddhasādhyatā</q> iti manyate <rs type="person" key="Kumārila"
+                              ana="critical">paraḥ</rs></seg>. bālamūkādivijñānasadṛśam iti.
+                        bālavijñānasadṛśaṃ mūkādivijñānasadṛśam. ādiśabdena <app>
+                           <lem source="#Śā">saṃmūrchitādi</lem>
+                           <rdg source="#Kri">saṃmūrchita</rdg>
+                        </app>parigrahaḥ. abhilāpaviśeṣarahitatvamātreṇa sāmyam || 1285|| </p>
+                  </div>
+                  <div xml:id="TSP1286">
+                     <q type="quotation" source="#ŚV" n="pratyakṣa_113" ana="critical">
+                        <lg xml:id="TS1286">
+                           <l>na viśeṣo na sāmānyaṃ tadānīm anubhūyate |</l>
+                           <l>tayor ādhārabhūtā tu vyaktirevāvasīyate ||1286||</l>
+                        </lg>
+                     </q>
+                     <p>śuddhatvaṃ punar vastunaḥ; sāmānyadvayaviviktatvāt. tad eva dvitīyena
+                        ślokena spaṣṭayati, na viśeṣa ityādi. viśeṣa iti. avāntarasāmānyaṃ gotvādi.
+                        sāmānyam iti. mahāsāmānyaṃ vastutvādi. tayor ādhārabhūteti. anena śuddhaṃ
+                        vastu darśitam ||1286|| </p>
+                  </div>
+                  <div xml:id="TSP1287">
+                     <q type="quotation" source="#ŚV" n="pratyakṣa_120" ana="critical">
+                        <lg xml:id="TS1287">
+                           <l>tataḥ paraṃ punar vastu dharmair jātyādibhir yayā |</l>
+                           <l>buddhyāvasīyate sāpi pratyakṣatvena saṃmatā ||1287||</l>
+                        </lg>
+                     </q>
+                     <p>tataḥ param ityādinā tām eva pakṣaikadeśāsiddhatāṃ hetor abhivyanakti tataḥ
+                        param iti. śuddhavastugrahaṇottarakālaṃ yayā buddhyā vastu vyavasīyate
+                        jātyādibhir viśeṣaṇaiḥ, sāpi pratyakṣatvena sammateti yojyam. jātyādibhir
+                        ity anena viśeṣaṇaviśiṣṭārthagrahaṇaṃ darśayati. anena
+                        cānadhigatārthādhigantṛtvaṃ hetoś cāsiddhatoktā bhavati ||1287||</p>
+                  </div>
+                  <div xml:id="TSP1288">
+                     <q type="quotation" source="#ŚV" n="pratyakṣa_125" ana="critical">
+                        <lg xml:id="TS1288">
+                           <l>punaḥ punar vikalpe 'pi yāvān adhigamo bhavet |</l>
+                           <l>tat sambandhānusāreṇa sarvaṃ pratyakṣam iṣyate ||1288||</l>
+                        </lg>
+                     </q>
+                     <p>punaḥ punar iti. tṛtīyādau kṣaṇe. yāvān iti. anadhigatārthādhiganteti śeṣaḥ.
+                        tatsambandhānusāreṇeti. tasyākṣasya sambandhānusāreṇa ||1288||</p>
+                  </div>
+                  <div xml:id="TSP1289">
+                     <p>syād etat, yadi prathamato 'kṣavyāpārakāle sakalajātyādidharmasamanvitaṃ
+                        vastu na bhāsate, tat tarhy uttarakālam api na bhāseta; aviśeṣāt ? ity āha,
+                        na hi praviṣṭamātrāṇām ityādi. [p.386]</p>
+                     <q type="quotation" source="#ŚV" n="pratyakṣa_126" ana="critical">
+                        <lg xml:id="TS1289">
+                           <l>na hi praviṣṭamātrāṇām uṣṇād garbhagṛhādiṣu |</l>
+                           <l>arthā na pratibhāntīti gamyante nendriyaiḥ punaḥ ||1289||</l>
+                        </lg>
+                     </q>
+                     <p>uṣṇād iti. prabhāsvarāt. praviṣṭamātrāṇām iti yojyam. gamyante nendriyair
+                        iti. api tu gamyanta eveti kākā darśayati ||1289||</p>
+                  </div>
+                  <div xml:id="TSP1290">
+                     <p>evaṃ dṛṣṭāntaṃ prasādhya dārṣṭāntikaṃ upasaṃharann āha, yathetyādi.</p>
+                     <q type="quotation" source="#ŚV" n="pratyakṣa_127" ana="critical">
+                        <lg xml:id="TS1290">
+                           <l>yathā svābhāsamātreṇa pūrvaṃ jñātvā svarūpataḥ |</l>
+                           <l>paścāt tatra vibuddhyante tathā jātyādidharmataḥ ||1290||</l>
+                        </lg>
+                     </q>
+                     <p>yathā garbhagṛhe ābhāsamātraṃ gṛhītvā paścād viśeṣato nīlam ityādinā jānāti,
+                        evaṃ svarūpataḥ pūrvaṃ jñātvā paścāj jātyādidharmataḥ pratyakṣavān
+                        bhaviṣyatīty adoṣaḥ ||1290||</p>
+                  </div>
+                  <div xml:id="TSP1291">
+                     <p>evaṃ tarhi yady ālocanājñānād ūrdhvaṃ punaḥ punar yāvān adhigamas tasya
+                        prāṃānyam, tadālocanājñānena yadi kaścid ālocya paścāddakṣiṇī nimīlya
+                        jātyādidharmato vikalpayati, tadāsyāpūrvādhigamo 'stīti tasyāpi pratyakṣatā
+                        syāt ? ity āha, yadi tv ityādi.</p>
+                     <q type="quotation" source="#ŚV" n="pratyakṣa_128" ana="critical">
+                        <lg xml:id="TS1291">
+                           <l>yadi tv ālocya saṃmīlya netre kaścid vikalpayet |</l>
+                           <l>na syāt pratyakṣatā tasya sambandhānanusārataḥ ||1291||</l>
+                        </lg>
+                     </q>
+                     <p>ālocyeti. ālocanājñāne jñātvā. netre iti. saṃmīlyeti sambandhaḥ.
+                        sambandhānanusārata iti. akṣasambandhadvāreṇānutpatteḥ.</p>
+                     <p><seg>yathoktaṃ tenaiva <rs type="person" key="Kumārila" ana="critical"
+                              >kumārilena</rs>
+                           <q type="quotation" source="#ŚV" n="pratyakṣa_258" ana="critical">evaṃ
+                              samāne 'pi vikalpamātre yatrākṣasambandhaphalānusāraḥ. pratyakṣatā
+                              tasya, tathā ca loke vināpyado lakṣaṇataḥ prasiddham</q> iti</seg>
+                        ||1291||</p>
+                  </div>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Kumārila_1292-1297" ana="#Kumārila">
+                  <div xml:id="TSP1292_1293">
+                     <p>tadityādinā pratividhatte</p>
+                     <lg xml:id="TS1292">
+                        <l>tad ayuktaṃ yadi jñānaṃ tat pravṛttaṃ svalakṣaṇe |</l>
+                        <l>nāviṣṭābhilāpaṃ taj jātyādigrahaṇe 'pi hi ||1292||</l>
+                     </lg>
+                     <lg xml:id="TS1293">
+                        <l>tathā{cā}vācyam evedaṃ sādhitaṃ prāk svalakṣaṇam |</l>
+                        <l>tasmin vṛttaṃ ca vijñānaṃ niyataṃ nirvikalpakam ||1293||</l>
+                     </lg>
+                     <p>jātyādigrahaṇe 'pīty apiśabdo 'bhyupagame. ekadā tāvaj jātyādīnāṃ
+                        nirastatvān na santyeva ta iti kutas tadgrahaṇe prāmāṇyam. santu nāma
+                        tathāpi tadgrahaṇe ālocanājñānavad uttarakālabhāvināṃ jñānāṃ
+                        svalakṣaṇaviṣayatvād avikalpataiva, jātyādīnāṃ
+                        svalakṣaṇadavyatirekasyābhyupagatatvād iti bhāvaḥ. prayogaḥ, yat
+                        svalakṣaṇagrāhi tadavikalpakam, [p.387] yathā, ālocanājñānam.
+                        svalakṣaṇagrāhi cottarapratyakṣatvenābhimataṃ jñānam iti svabhāvahetuḥ .
+                        prasaṅgasādhanaṃ cedaṃ, nacānaikāntikatā hetoḥ; yato 'vācyam evedaṃ
+                        svalakṣaṇam iti prāganyāpohe prasādhitam. nāpi viruddhatā; sapakṣe bhāvāt.
+                        ||1292 1293||</p>
+                  </div>
+                  <div xml:id="TSP1294">
+                     <p> syād etat jātimātraviṣayatvād asiddho hetur ity āha jātimātretyādi.</p>
+                     <lg xml:id="TS1294">
+                        <l>jātimātragrahe tu syād ekāntena vibhinnatā |</l>
+                        <l>viśeṣaṇasya naitac ca <rs type="group" key="Mīmāṃsā">parair</rs> iṣṭaṃ
+                           yathoditam ||1294||</l>
+                     </lg>
+                     <p>ekāntena vibhinnatā viśeṣaṇasyeti. viśeṣyād iti śeṣaḥ. naitac ca <rs
+                           type="group" key="Mīmāṃsā">parair</rs> iṣṭam iti. ekāntena
+                        viśeṣaṇaviśeṣyayor vibhinnatvam. kathaṃ neṣṭam ? ity āha, yathoditam iti.
+                        tenaiveti śeṣaḥ. ||1294||</p>
+                  </div>
+                  <div xml:id="TSP1295">
+                     <p>kiṃ tat ? ity āha, yadītyādi.</p>
+                     <lg xml:id="TS1295">
+                        <l>yadi hyekāntato bhinnaṃ viśeṣyāt syād viśeṣaṇam |</l>
+                        <l>svānurūpāṃ tadā buddhiṃ viśeṣye janayet katham ||1295||</l>
+                     </lg>
+                     <p>paryāyeṇa bhedasyāpy abhyupagatatvād ekāntata ity āha. tathā hi
+                        bhinnābhinnasvabhāvā jātyādayas tasyeṣṭā naikāntato bhinnāḥ, nāpy
+                        abhinnāḥ.</p>
+                     <p>
+                        <seg>tathā cāha, <q type="quotation" source="#ŚV" n="pratyakṣa_158"
+                              ana="critical">buddhibhedān na caikatvaṃ rūpādīnāṃ prasajyate.
+                              ekānekatvam iṣṭaṃ vā sattārūpādibhedataḥ ||</q> iti.</seg>
+                     </p>
+                     <p>
+                        <seg>punaś coktam, <q type="quotation" source="#ŚV" n="pratyakṣa_141"
+                              ana="critical">sthitaṃ naiva hi jātyādeḥ paratvaṃ vyaktito hi na |</q>
+                           iti.</seg>
+                     </p>
+                     <p>paratvam iti. anyatvam. svānurūpām iti. viśeṣaṇasvarūpoparaktām. yato
+                        viśeṣaṇoparaktaṃ viśeṣyaṃ grāhayad viśeṣaṇam ucyate, anyathā <app>
+                           <lem source="#Śā">viśeṣaṇa</lem>
+                           <rdg source="#Kri">viśeṣaṇa{tva}</rdg>
+                        </app>syān upapannatvād iti bhāvaḥ. </p>
+                     <p><seg>yathoktam, <q type="quotation" source="#ŚV" n="apoha_87" ana="critical"
+                              >svabuddhyā yena rajyeta viśeṣyaṃ tadviśeṣaṇam|</q> iti.</seg>
+                        ||1295||</p>
+                  </div>
+                  <div xml:id="TSP1296">
+                     <p>athāpi syāt, svasāmānyalakṣaṇaviṣayatvenobhayaviṣayatvāt
+                        kevalasvalakṣaṇamātraviṣayatvam asiddham evottareṣāṃ jñānānām ? ity āha,
+                        svasāmānyātmanor ityādi.</p>
+                     <lg xml:id="TS1296">
+                        <l>svasāmānyātmanor yuktaṃ jñānaṃ caikaṃ na vedakam |</l>
+                        <l>savikalpānyathābhāve prāktanāparavinna hi ||1296||</l>
+                     </lg>
+                     <p>svalakṣaṇasāmānyalakṣaṇayor naika jñānaṃ vedakaṃ yuktam. tathā hi, tadekaṃ
+                        jñānaṃ savikalpakaṃ vā syāt, avikalpakaṃ vā; tatra savikalpakabhāve =
+                        savikalpakatve sati, prāktanasya = pūrvoktasya svalakṣaṇasya, vit = vedanaṃ,
+                        na prāpnoti. anyathābhāva iti nirvikalpakapakṣe. aparasyeti. sāmānyātmanaḥ,
+                        vit = vittir na syāt. ||1296||</p>
+                  </div>
+                  <div xml:id="TSP1297">
+                     <p> [p.388] evaṃ tāvat svalakṣaṇaviṣayatva itareṣāṃ jñānānām avikalpatā
+                        prāpnotīti sādhitam. idānīṃ bhavatu nāma savikalpakatvam, tathāpi
+                        gṛhītagrāhitvān na teṣāṃ prāmāṇyam <app>
+                           <lem source="#Śā">eva</lem>
+                           <rdg source="#Kri"/>
+                        </app> yuktam iti pratipādayann āha, ekāntenetyādi.</p>
+                     <lg xml:id="TS1297">
+                        <l>ekāntenānyatābhāvāj jātyādyādyena ced gatam |</l>
+                        <l>vijñātārthādhigantṛtvāt smārtajñānasamaṃ param ||1297||</l>
+                     </lg>
+                     <p>tathā hi, jātyāder vyaktito naivānyatvam ekānteneṣṭam.</p>
+                     <p>
+                        <seg>yathoktam, <q type="quotation" source="#ŚV" n="pratyakṣa_141"
+                              ana="critical">sthitaṃ naiva hi jātyādeḥ paratvaṃ vyaktito hi na |</q>
+                           iti.</seg>
+                     </p>
+                     <p>tataś cādyenaivālocanājñānena jātyādi gṛhītam iti smārtajñānavad
+                        adhigatārthādhigantṛtvāt paraṃ jātyādidharmaniścayajñānam apramāṇam eva
+                        yuktam iti. prayogaḥ, yadgṛhītagrāhi jñānaṃ na tat pramāṇam, yathā, smṛtiḥ.
+                        gṛhītagrāhī ca pratyakṣapṛṣṭhabhāvī vikalpa iti vyāpakaviruddhopalabdhiḥ.
+                        ||1297||</p>
+                  </div>
+               </div>
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Kumārila_1298-1299" ana="#Kumārila">
+                  <div xml:id="TSP1298_1299">
+                     <p><rs type="person" key="Kumārila" ana="critical">tad</rs> atra yadi
+                        samāropaviṣayavyavacchedena gṛhītam iti hetvarthaḥ, tadā hetor asiddhatā,
+                        atha yathā kathañcid gṛhītatvād iti hetvarthaḥ, tadānumānenānekānta iti
+                        darśayann āha, saṃmugdhetyādi.</p>
+                     <lg xml:id="TS1298">
+                        <l>saṃmugdhānekasāmānyarūpeṇādhigame sati |</l>
+                        <l>naiva jenniścitaṃ vastu niścayas tūttarottaraḥ ||1298||</l>
+                     </lg>
+                     <lg xml:id="TS1299">
+                        <l><app>
+                              <lem source="#Śā">samārope vyavacchedaviṣayād dhi</lem>
+                              <rdg source="#Kri">samāropavyavacchedaviṣayatvād</rdg>
+                           </app> yathānumā |</l>
+                        <l>samāropavyavacchedāviṣayo niścayas tathā. ||1299||</l>
+                     </lg>
+                     <p>tathā hi, prathamaṃ saṃmugdharūpeṇālocanājñānenādhigatam, na hi
+                        niścitarūpeṇa; uttarottaras tu niścayaḥ pramāṇam,
+                        samāropavyavacchedaviṣayatvād anumānavat. yathā pratyakṣeṇa gṛhīte śabdādau
+                        dharmiṇi kṛtakatvādinānityatvaniścayo bhavan pramāṇaṃ bhavati, tathā
+                        samāropavyavacchedaviṣayo niścayo bhaviṣyati. tathā hi <rs type="group"
+                           key="Bauddha">bhavatām</rs> atrāvivādaḥ, samāropavyavacchedaviṣayo
+                        niścaya iti.</p>
+                     <p><seg>yathoktam, <q type="quotation" source="#PV" n="3.48" ana="neutral"
+                              >niścayāropamanasor bādhyabādhakabhāvataḥ. samāropaviveke 'sya
+                              pravṛttir iti gamyate ||</q> iti</seg> ||1298 1299||</p>
+                  </div>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Kumārila_1300-1304" ana="#Kumārila">
+                  <div xml:id="TSP1300_1301_1302">
+                     <p>netyādinā pratividhatte. [p.389]</p>
+                     <lg xml:id="TS1300">
+                        <l>na samāropavicchedaviṣayatvena mānatā |</l>
+                        <l>anumāyāḥ pramāṇatvaprasaṅgena smṛter api ||1300||</l>
+                     </lg>
+                     <lg xml:id="TS1301">
+                        <l>pratyakṣānantarodbhūta<app>
+                              <lem source="#Śā">samāropanivāraṇāt</lem>
+                              <rdg source="#Kri">samāropaṇavāraṇāt</rdg>
+                           </app> |</l>
+                        <l>iṣṭaṃ tu laiṅgikaṃ jñānaṃ pramāṇaṃ na tad asti <rs type="person"
+                              key="Kumārila" ana="critical">te</rs> ||1301||</l>
+                     </lg>
+                     <lg xml:id="TS1302">
+                        <l>gauḥ śuklaś calatītyādau pratyakṣānantaraṃ na hi |</l>
+                        <l>samāropo 'tra vijñāne vedyate yan <app>
+                              <lem>niṣedhyate</lem>
+                              <rdg source="#Kri">niṣidhyate</rdg>
+                           </app>||1302||</l>
+                     </lg>
+                     <p>pravṛttasamāropavyavacchedenānumānasya prāmāṇyam, na tu punaḥ
+                        samāropaviṣayavyavacchedamātreṇa; smṛter api prāmāṇyaprasaṅgāt, na ca tat
+                        pratyakṣasamanantarabhāvino gauḥ śuklaś calatītyāder vikalpasya
+                        pravṛttasamāropanivāraṇam asti; antarā samāropasyānutpannatvāt. katham
+                        anutpannatvam iti cet ? āha, gaur ityādi. na hi vikalpo 'saṃvidita utpadyata
+                        ity upalabdhilakṣaṇaprāptasyānupalabdhyā siddham anutpannatvaṃ samāropasya.
+                        ||1300 1301 1302||</p>
+                  </div>
+                  <div xml:id="TSP1303_1304">
+                     <p>evaṃ tāvad etat sarvaṃ jātyādikam abhyugamyoktam, idānīṃ jātyādayaḥ
+                        paramārthato na santy eva, kutas tadviṣayatayā pratyakṣasya savikalpatā
+                        bhaviṣyatīti darśayann āha, tattvetyādi.</p>
+                     <lg xml:id="TS1303">
+                        <l>tattvānyatvobhayātmānaḥ santi jātyādayo na ca |</l>
+                        <l>yad vikalpakavijñānaṃ pratyakṣatvaṃ prayāsyati ||1303||</l>
+                     </lg>
+                     <lg xml:id="TS1304">
+                        <l>anvayāsatvato bhedād bhedenāpratibhāsanāt |</l>
+                        <l>anyonyaparihāreṇa sthiteścānyatva tattvayoḥ ||1304||</l>
+                     </lg>
+                     <p>vyaktibhyo hi jātyādayaḥ kadācid avytiriktā, vyatiriktā vā,
+                        vyatiriktāvyatiriktatvenobhayātmāno vā. na tāvadādyaḥ pakṣaḥ; anvayāsatvataḥ
+                        = anvayābhāvāt. anekavastvanugataṃ hi rūpaṃ sāmānyamucyate, na caivaṃ
+                        vyaktayaḥ parasparamanvāviśanti, yena tā eva sāmānyaṃ bhaveyuḥ. anvāveśe vā
+                        viśvam ekam eva rūpaṃ jātam iti sāmānyasyaivābhāvaprasaṅgaḥ, anekādhāratvāt
+                        tasya. nāpi dvitīyaḥ pakṣaḥ; bhedād bhedenāpratibhāsanāt bhedād iti vyakteḥ.
+                        na cāpratibhāsamānaṃ pratyakṣībhavati.</p>
+                     <p>
+                        <seg>yathoktam, <q type="quotation" source="#PV" n="3.70"
+                              ana="authoritative">vyaktayo nānuyantyanyadanuyāyi na bhāsate.
+                              jñānādavyatiriktaṃ ca katham arthāntaraṃ vrajet ||</q> iti.</seg>
+                     </p>
+                     <p>nāpi tṛtīyaḥ pakṣaḥ; anyonyaparihāreṇa sthiter anyatvatattvayoḥ pakṣayoḥ,
+                        yau hi parasparaparihāreṇa sthitalakṣaṇau, tayor ya ekaḥ pratiṣedhaḥ so
+                        'paravidhināntarīyakaḥ. parasparaparihāreṇa vānyatvatattve vyavasthite;
+                        anyatarasvabhāvavyavacchedenānyatarasya paricchedāt. tasmān nāsti
+                        tṛtīyarāśisambandhaḥ. ||1303 1304||</p>
+                  </div>
+               </div>
+            </div>
+            <div xml:id="TSP1305">
+               <p>nanu ca yady avikalpaṃ pratyakṣam, kathaṃ tena vyavahāraḥ, tathā hi, "idaṃ
+                  sukhasādhanam", "idaṃ [p.390] duḥkhasya" iti yadi niścinoti, tadā tayoḥ
+                  prāptiparihārāya pravartate. kiṃ ca, anumānānumeyavyavahārābhāvaś ca prāpnoti .
+                  tathā hi, anumānakāle 'vaśyaṃ dharmī dharmo vā pramāṇāntareṇa niścito gṛhītavyaḥ.
+                  sa ca na pratyakṣeṇāniścayātmakena niścito gṛhītuṃ śakyate. nāpy anumānena,
+                  anavasthādoṣāt. na cānyatpramāṇāntaram astīti sarvavyavahārocchedaḥ prāpnoti.
+                  tasmād anumānādivyavahārapravṛttito liṅgād anumānabādhiteyam avikalpakapratijñā ?
+                  iti yaś codayet, taṃ praty āha, avikalpam apītyādi.</p>
+               <lg xml:id="TS1305">
+                  <l>avikalpam api jñānaṃ vikalpotpattiśaktimat |</l>
+                  <l>niḥśeṣavyavahārāṅgaṃ taddvāreṇa bhavatyataḥ || 1305</l>
+               </lg>
+               <p>taddvāreṇeti. vikalpadvāreṇāvikalpakam api niścayahetutvena sakalavyavahārāṅgaṃ
+                  bhavati. tathā hi, pratyakṣaṃ kalpanāpoḍham api sajātīyavijātīyavyāvṛttam
+                  analādikam arthaṃ tadākāranirbhāsotpattitaḥ paricchindad utpadyate. tac ca
+                  niyatarūpavyavasthitavastugrāhitvād vijātīyavyāvṛttavastvākārānugatatvān na
+                  tatraiva vastuni vidhipratiṣedhāvāvirbhāvayati, "analo 'yam, nāsau
+                  kusumastabakādiḥ" iti. <q type="reference" source="#PV #PVin"
+                     n="PV:3.82bc PVin:2.3b'c" ana="authoritative">tayoś ca vikalpayoḥ pāramparyeṇa
+                     vastuni pratibandhād</q>
+                  <app>
+                     <lem source="#Śā">visaṃvāditve</lem>
+                     <rdg source="#Kri"> asaṃvāditve</rdg>
+                  </app> 'pi na prāmāṇyam iṣṭam; dṛśyavikalpayor ekatvādhyavasāyena pravṛtter
+                  anadhigatavasturūpādhigamābhāvāt.</p>
+               <p>ata eva vikalpadvayahetutvāt tṛtīyaprakārābhāvasūcanāyāpi nimittatāṃ pratipadyate.
+                  tathā hi, <q source="#HB" n="32,5-6" ana="authoritative" type="reference">yad
+                     yatra kvacit pravṛttaṃ <app>
+                        <lem source="#Śā">tatpratibhāsitvāt</lem>
+                        <rdg source="#Kri">tat tatpratibhāsitvāt</rdg>
+                     </app> tat paricchinatti, tadanyasya tatrānupalambhāt tatas tad vyavacchinatti.
+                     sarvabhāvānāṃ ca dṛśyatadanyatvena dvairāśye vyavasthāpanāt prakārāntarābhāvaṃ
+                     ca sūcayati.</q> yady evam, pratyekṣeṇaiva (2p.478) śabdādau dharmiṇi
+                  gṛhītatvād anityatvādeḥ tatrānumānavikalpaḥ pravartamānaḥ pramāṇaṃ na prāpnoti ?
+                  naiṣa doṣaḥ; pratyakṣam utpannam api yatrāṃśe 'vasāyaṃ janayati sa evāṃśo
+                  vyavahārayogyo gṛhīta ity abhidhīyate, yatra nu bhrāntinimittavaśāt
+                  samāropapravṛtter na vyavasāyaṃ janayitum īśam, sa vyavahārāyogyatvād gṛhīto 'py
+                  agṛhītaprakhya iti tatrānumānasya pravṛttasamāropavyavacchedāya pravartamānasya
+                  prāmāṇyaṃ bhavati, na punaḥ pratyakṣānantarabhāvivikalpasya; tasya
+                  pravṛttasamāropavyavacchedābhāvāt.</p>
+               <p>kiṃ punaḥ kāraṇam, sarvato bhinne vasturūpe anubhavotpattāv api tathaiva na smārto
+                  niścayo bhavati ? ucyate; kāraṇāntarāpekṣatvāt na hy anubhūta ity eva niścayo
+                  bhavati; tasyābhyāsārthitvapāṭavādikāraṇāntarāpekṣatvāt. yathā
+                  janakādhyāpakāviśeṣe 'pi pitaram āyāntaṃ dṛṣṭvā "pitā me āgacchati, nopādhyāyaḥ"
+                  iti niścinoti. ||1305||</p>
+            </div>
+            <div type="vāda" xml:id="vāda_Bhāvivikta_1306-1310" ana="#Bhāvivikta">
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Bhāvivikta_1306" ana="#Bhāvivikta">
+                  <div xml:id="TSP1306">
+                     <p>[p.391] atra <rs type="person" key="Bhāvivikta">bhāviviktādayo</rs>
+                        vikalpotpādadvāreṇāpi vyavahārāṅgatvaṃ vighaṭayanto yat pramāṇayanti, tad
+                        darśayati, nāvikalpam ityādi.</p>
+                     <lg xml:id="TS1306">
+                        <l>nāvikalpaṃ vikalpe <app>
+                              <lem source="#Śā">cec chaktaṃ</lem>
+                              <rdg source="#Kri">cec chaktaṃ{ca śaktaṃ?}</rdg>
+                           </app> viṣayabhedataḥ |</l>
+                        <l>akalpatvāc ca rūpādijñānavac cakṣurādivat || 1306 ||</l>
+                     </lg>
+                     <p>nendriyavijñānaṃ savikalpakamanovijñānakāraṇam; bhinnaviṣayatvāt,
+                        rūpasparśādijñānavat, nirvikalpakatvāc ca, cakṣurādivad iti. viṣayabhedata
+                        ity atra hetau dṛṣṭāntau rūpādijñānavad iti, akalpatvād ity atra tu
+                        cakṣurādivad iti ||1306||</p>
+                  </div>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Bhāvivikta_1307-1310" ana="#Bhāvivikta">
+                  <div xml:id="TSP1307">
+                     <p>tad atretyādinā dūṣaṇam āha.</p>
+                     <lg xml:id="TS1307">
+                        <l>tad atra na virodho 'sti vikalpena sahānayoḥ |</l>
+                        <l>na cāpi viṣayo bhinnas tadarthādhyavasāyataḥ || 1307 ||</l>
+                     </lg>
+                     <p> ubhayor api hetvor anaikāntikatā; sādhyaviparyayeṇa saha hetor
+                        virodhānupadarśanāt. anayor iti. hetvoḥ. na cāpi viṣayo bhinna ity anena
+                        saty api saviṣayatve vikalpasya "viṣayabhedataḥ" ity asya hetor asiddhatām
+                        āha. ||1307||</p>
+                  </div>
+                  <div xml:id="TSP1308">
+                     <p>paramārthatas tu nirviṣayo vikalpaḥ, tadāpi sutarām asiddhateti darśayann
+                        āha, vastutas tv ityādi.</p>
+                     <lg xml:id="TS1308">
+                        <l>vastutas tu nirālambo vikalpaḥ sampravartate |</l>
+                        <l>tasyāsti viṣayo naiva yo vibhidyeta kaścana ||1308||</l>
+                     </lg>
+                  </div>
+                  <div xml:id="TSP1309">
+                     <p>rūpaśabdādītyādinā "rūpādijñānavat" ity asya dṛṣṭāntasya sādhyavikalatām
+                        āha.</p>
+                     <lg xml:id="TS1309">
+                        <l>rūpaśabdādibuddhīnām astyevānyonyahetutā |</l>
+                        <l>tato 'prasiddhasādhyo 'yaṃ dṛṣṭāntaḥ samudīritaḥ ||1309||</l>
+                     </lg>
+                     <p>rūpaśabdādijñānāṃ parasparasamanantarapratyayabhāvena kāraṇatvasya
+                        vidyamānatvāt. ||1309||</p>
+                  </div>
+                  <div xml:id="TSP1310">
+                     <p>punar api "viṣayabhedataḥ" ity asya hetor vipakṣe
+                        sadbhāvopadarśanenānaikāntikatām āha, agnidhūmādītyādi.</p>
+                     <lg xml:id="TS1310">
+                        <l>agnidhūmādibuddhīnāṃ kāryakāraṇabhāvataḥ |</l>
+                        <l>vyabhicāro 'pi vispaṣṭam etasminn upalabhyate ||1310||</l>
+                     </lg>
+                     <p>etasminn iti. "viṣayabhedataḥ" ity ata hetau. yathāgnyādiliṅgibuddher
+                        dhūmādiliṅgabuddhir viṣayabhede 'pi kāraṇam, tathātrāpi bhaviṣyatīti hetor
+                        anaikāntikatvam. ||1310||</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div type="topic" ana="#topic_abhranta">
+            <head>abhrānta</head>
+            <div xml:id="TSP1311">
+               <p>[p.392] evaṃ kalpanāpoḍhatvaṃ pratyakṣasya prasādhyābhrāntagrahaṇe prayojanam āha,
+                  keśoṇḍraketyādi.</p>
+               <lg xml:id="TS1311">
+                  <l>keśoṇḍrakādivijñānanivṛttyartham idaṃ kṛtam |</l>
+                  <l>abhrāntagrahaṇaṃ tad dhi bhrāntatvānneṣyate pramā ||1311||</l>
+               </lg>
+               <p>abhrāntamatrāvisaṃvāditvena draṣṭavyam, na tu yathāvasthitālambanākāratayā.
+                  anyathā hi <rs type="group" key="Yogācāra" ana="affirmative"
+                  >yogācāra</rs>matenālambanāsiddher <rs type="group" key="Yogācāra Sautrāntika"
+                     cert="medium" ana="affirmative">ubhaya</rs>nayasamāśrayeṇeṣṭasya
+                  pratyakṣalakṣaṇasyāvyāpitā syāt. avisaṃvāditvaṃ cābhimatārthakriyāsamarthārthaprāpaṇa<app>
+                     <lem source="#Śā">śaktiḥ</lem>
+                     <rdg source="#Kri">śaktikatvam</rdg>
+                  </app>, na tu prāpaṇam eva; pratibandhādisambhavāt. yady evam, abhrāntagrahaṇam
+                  evāstu, kiṃ kalpanāpoḍhagrahaṇeneti ? <app>
+                     <lem source="#Kri">cet</lem>
+                     <rdg source="#Śā"/>
+                  </app> na; anumānavikalpasyāpi pratyakṣatvaprasaṅgāt ||1311||</p>
+            </div>
+            <div xml:id="TSP1312_1313">
+               <p>mānasaṃ tad apīty <rs type="group" key="Bauddha" cert="medium">eka</rs> iti. na
+                  tadartham abhrāntagrahaṇaṃ yuktaṃ kartum iti <rs type="group" key="Bauddha"
+                     cert="medium" ana="critical">teṣām</rs> abhiprāyaḥ.</p>
+               <lg xml:id="TS1312">
+                  <l><q type="reference" source="#PV" n="3.294a">mānasaṃ tad apīty <rs type="group"
+                           key="Bauddha" cert="medium">eke</rs></q> naitad indriyabhāvataḥ |</l>
+                  <l>bhāvāt tadvikṛtāv asya vikṛteś copalambhataḥ ||1312||</l>
+               </lg>
+               <lg xml:id="TS1313">
+                  <l>sarpādibhrāntivaccedam anaṣṭe 'pyakṣaviplave |</l>
+                  <l>nivarteta manobhrānteḥ spaṣṭaṃ ca pratibhāsanāt ||1313||</l>
+               </lg>
+               <p>nanu ca bhavatu nāma mānasam, tathāpy abhrāntagrahaṇaṃ kartavyam eva, na hy <rs
+                     type="person" key="Dignāga" ana="affirmative">anena</rs>indriyajñānasyaiva
+                  pratyakṣalakṣaṇaṃ kartum ārabdham, kiṃ tarhi ? mānasasyāpi yogijñānādeḥ, tatra ca
+                  svapnāntikasyāpi nirvikalpakatvam asti; spaṣṭapratibhāsitvāt, na tv abhrāntatvam
+                  iti tannivṛttyartham abhrāntagrahaṇaṃ yuktam eva ? satyam etat; kiṃ tv
+                  indriyabhrāntir api sambhavati, ato 'yam ayukta <rs type="group" key="Bauddha"
+                     cert="medium" ana="critical">eṣāṃ</rs> pakṣa itīndriyajatvapratipādanāyāha,
+                  naitad ityādi. indriyabhāve sati bhāvād indriyajeyaṃ keśoṇḍrakādibuddhiḥ. kiṃ ca,
+                  yadi manobhrāntiḥ syāt, tato manobhrānter eva kāraṇān nivartetānivṛtte 'py
+                  akṣaviplave | sarpādibhrāntivad iti dṛṣṭāntaḥ. spaṣṭapratibhāsā ca na prāpnotīty
+                  ayam aparaḥ prasaṅgaḥ. na hi vikalpānuviddhasya spaṣṭārthapratibhāsitā;
+                  sāmānyollekhenaiva tasya pravṛtteḥ. ||1312 1313||</p>
+            </div>
+            <div type="vāda" xml:id="vāda_Bauddha_1314-1322" ana="#Bauddha">
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Bauddha_1314-1319" ana="#Bauddha">
+                  <div xml:id="TSP1314_1315_1316_1317_1318_1319">
+                     <p>tadbhāvetyādinā <rs type="group" key="Bauddha" ana="critical" cert="medium"
+                           >parakīyaṃ</rs> dūṣaṇam āśaṅkate. [p.393]</p>
+                     <lg xml:id="TS1314">
+                        <l>tadbhāvābhāvitā sākṣād asiddhā vyabhicāriṇī |</l>
+                        <l>pāramparyeṇa sā tasyāṃ smṛtibuddhau samanvayāt ||1314||</l>
+                     </lg>
+                     <lg xml:id="TS1315">
+                        <l>tadvikāravikāritvaṃ pāramparyodbhaveṣv api |</l>
+                        <l>kāryeṣu dṛśyate loke vyaktaṃ vegasarādiṣu ||1315||</l>
+                     </lg>
+                     <lg xml:id="TS1316">
+                        <l>mānasyo bhrāntayaḥ sarvā nivartante vicārataḥ |</l>
+                        <l>ity asmin vyabhicāritvaṃ bhāvasāmānyabuddhibhiḥ ||1316||</l>
+                     </lg>
+                     <lg xml:id="TS1317">
+                        <l>vastusvalakṣaṇe naitāḥ pravartante svabhāvataḥ |</l>
+                        <l>evaṃ tadvinivṛttiś cet tulyaṃ candradvayādiṣu ||1317||</l>
+                     </lg>
+                     <lg xml:id="TS1318">
+                        <l>na sattāvinivṛttiś cet samaṃ sāmānyabuddhiṣu |</l>
+                        <l>na ceśvarādibhrāntīnāṃ tanmatābhiniveśinām ||1318||</l>
+                     </lg>
+                     <lg xml:id="TS1319">
+                        <l>yuktikoṭiśrave 'py asti nivṛttiḥ pratyuta svayam |</l>
+                        <l>naitā yuktaya ity evaṃ te vadanti jaḍāḥ punaḥ ||1319||</l>
+                     </lg>
+                     <p>atra yadi sākṣāt tadbhāvabhāvitvaṃ hetuḥ, tadā <rs type="group"
+                           key="unknown" ana="neutral">anyatarā</rs>siddhatā hetoḥ. na hi <rs
+                           type="group" key="unknown" ana="neutral">parasya</rs> sākṣād indriyād
+                        utpattir bhrānteḥ siddhā; tasyā eva sādhyatvāt. atha sāmānyena
+                        tadbhāvabhāvitvaṃ hetus tadānaikāntikatā; smṛtibuddhau vipakṣabhūtāyām api
+                        tadbhāvabhāvitvasya <app>
+                           <lem source="#Śā">samanvayāt</lem>
+                           <rdg source="#Kri">pāramparyā?</rdg>
+                        </app>, vidyamānatvāt.</p>
+                     <p>yac ca tadvikāravikāritvam; tad api sākṣād asiddham, pāramparyeṇāpy
+                        upādīyamānam anaikāntikam eva; yato 'ścāyāṃ gardabhena jātasya vegasarasya
+                        kalalādyavasthāvyavadhāne 'pi gardabharūpānukāreṇa tadvikāritvasya paścād
+                        darśanāt, ato nāsmāt sākṣād utpattiḥ sidhyati.</p>
+                     <p>"mānasī ca bhrāntir vicārān nivartate" ity atrāpy anaikāntikatvaṃ
+                        bhāvasāmānyabuddhibhiḥ. na hi <rs type="group" key="Bauddha">bhavatāṃ</rs>
+                        yuktyā sāmānyābhāvam avagacchatām api bhāveṣu ghaṭādiṣu, bhāva iti vā
+                        sāmānyam iti vā sāmānyākāro vikalpo nivartate.</p>
+                     <p>atha manyase, nivartanta eva yuktyā vicārayataḥ sāmānyabuddhayaḥ "svalakṣaṇe
+                        naitāḥ pravartante" ity anenākāreṇeti ? tadaitad apy anuttaram;
+                        candradvayādibuddhayo 'pi yuktyā vicārayataḥ "svalakṣaṇe naitāḥ pravartante"
+                        ity anenākāreṇa nivartanta eva. na ca tāvatā mānasyo bhavanti.</p>
+                     <p>sattā tāsāṃ na nivartata iti cet ? tat tulyaṃ sāmānyabuddhibhiḥ. na hi tāsām
+                        api svabhāvo nivartate. ||1314 1315 1316 1317 1318 1319|| </p>
+                  </div>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Bauddha_1320-1322" ana="#Bauddha">
+                  <div xml:id="TSP1320_1321_1322">
+                     <p>tadbhāvabhāvitetyādinā pratividhatte.[p.394]</p>
+                     <lg xml:id="TS1320">
+                        <l>tadbhāvabhāvitā sākṣān na siddhābhrāntacetasā |</l>
+                        <l>vyavadhānaṃ na siddhaṃ hi na hi tad vedyate 'ntarā ||1320||</l>
+                     </lg>
+                     <lg xml:id="TS1321">
+                        <l>apy arthāsaktacitto 'pi dvicandrādi samīkṣate |</l>
+                        <l>avicchinnam ato nāsti pāramparyasamudbhavaḥ ||1321||</l>
+                     </lg>
+                     <lg xml:id="TS1322">
+                        <l>bhāvasāmānyabuddhīnāṃ pratisaṃhārasambhave |</l>
+                        <l>nivṛttiḥ sambhavaty eva svecchayeśamater api ||1322||</l>
+                     </lg>
+                     <p>nāsiddhā, api tu siddhaiva; kasmāt ? abhrāntenaikacandracetasā
+                        vyavadhānāsiddheḥ. tasyopalabhyasyāntarāle 'nupalabhyamanatvāt. etad
+                        evānyārthetyādinā spaṣṭīkurute. avicchinnaṃ dvicandrādīti sambandhanīyam.
+                        ata eva tadvikāravikāritvasyāpy avyabhicāraḥ. na hi tad api vyavahitam, yena
+                        vegasarādibhir vyabhicāraḥ syāt. bhāvasāmānyabuddhīnām api yadecchayā
+                        saṃhāraṃ kurute tadā nivṛttir asty eva. na tu keśoṇḍrakādibuddhīnām icchayā
+                        saṃhāraḥ sambhavatīti nānaikāntikatā. indriyajñānasyāpi cakṣuṣīcchayā
+                        nimīlite nivṛttir icchāvaśāt sambhavatīti cet ? na hi samanantaram
+                        icchānivṛttau nivartate cakṣur vijñānam, kiṃ tarhi ? cakṣur nimīlanaṃ tāvad
+                        icchāvaśād bhavati, tato nivṛtte cakṣuṣi tajjñānaṃ nivartate, mānasī tu
+                        bhrāntiḥ sākṣādicchāvaśān nivartata iti na samānam. itthaṃ caitad avaseyam,
+                        yataḥ praṇihite cakṣuṣi draṣṭum aniṣyamāṇo 'py artho dṛśyata eva, ato
+                        necchāyāś cakṣurādijñāne sākṣāt sāmarthyam. ||1320 1321 1322||</p>
+                  </div>
+               </div>
+            </div>
+            <div type="vāda" xml:id="vāda_Jinendrabuddhi_1323-1328" ana="#Jinendrabuddhi">
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Jinendrabuddhi_1323" ana="#Jinendrabuddhi">
+                  <div xml:id="TSP1323">
+                     <lg xml:id="TS1323">
+                        <l>pītaśaṅkhādibuddhīnāṃ vibhrame 'pi <app>
+                              <lem source="#Śā">pramāṇatā</lem>
+                              <rdg source="#Kri">pramāṇatām</rdg>
+                           </app> |</l>
+                        <l>arthakriyāvisaṃvādād <rs type="person" key="Jinendrabuddhi"
+                              ana="critical">apare</rs> sampracakṣate ||1323||</l>
+                     </lg>
+                     <p>
+                        <seg><rs type="person" key="Jinendrabuddhi" ana="critical" cert="medium"
+                              resp="#Funayama1999">kecit</rs> tu <rs type="person" key="Dignāga"
+                              ana="authoritative">svayūthyā</rs> evābhrāntagrahaṇaṃ necchanti; <q
+                              type="reference" source="#PSṬ" n="64,6–7." ana="critical">bhrāntasyāpi
+                              pītaśaṅkhādijñānasya pratyakṣatvāt</q>. <q type="reference"
+                              source="#PSṬ" n="63,12–13." ana="critical">tathā hi, na tad anumānam;
+                              aliṅgajatvāt</q>. pramāṇaṃ cāvisaṃvāditvāt. ata <rs type="person"
+                              key="Dignāga" ana="authoritative">evācāryadiṅnāgena</rs> lakṣaṇe na
+                           kṛtam abhrāntagrahaṇam.</seg>
+                     </p>
+                     <p>
+                        <seg><q type="quotation" source="#PSV" n="1.7" ana="authoritative">bhrāntiḥ
+                              saṃvṛtiḥ sājñānam anumānetyādinā
+                              pratyakṣābhāsanirdeśādisaṃvādikalpanāpoḍham</q> ityevaṃvidham iṣṭam
+                              <rs type="person" key="Dignāga">ācāryasya</rs> lakṣaṇam.</seg>
+                     </p>
+                     <p><q type="reference" source="#PS" n="1.8’b" ana="neutral">sataimiram</q> iti
+                        tu timiraśabdo 'yam ajñānaparyāyaḥ. <q type="reference" source="#PSṬ"
+                           n="64,8-9." ana="neutral">timiraghnaṃ ca mandānām iti yathā</q>. timire
+                        bhavaṃ taimiram, visaṃvādakam ity arthaḥ. ||1323||</p>
+                  </div>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Jinendrabuddhi_1324-1328"
+                  ana="#Jinendrabuddhi">
+                  <div xml:id="TSP1324_1325">
+                     <p>tan netyādinā pratividhatte.[p.395]</p>
+                     <lg xml:id="TS1324">
+                        <l>tan nādhyavasitākārapratirūpā na vidyate |</l>
+                        <l>tatrāpy arthakriyāvāptir anyathātiprasajyate ||1324||</l>
+                     </lg>
+                     <lg xml:id="TS1325">
+                        <l>keśādipratibhāse ca jñāne <app>
+                              <lem source="#Śā">saṃvādabhāvataḥ</lem>
+                              <rdg source="#Kri">saṃvādibhāvataḥ</rdg>
+                           </app> |</l>
+                        <l>ālokāder atas tasya durnivārā pramāṇatā ||1325||</l>
+                     </lg>
+                     <p>prāmāṇyaṃ hi bhaddvābhyām ākārābhyāṃ bhavati, yathāpratibhāsam avisaṃvādāt,
+                        yathādhyavasāyāṃ vā. tatreha na yathāpratibhāsamavisaṃvādaḥ; pītasya
+                        pratibhāsanāt tasya <app>
+                           <lem source="#Śā">tathā</lem>
+                           <rdg source="#Kri">yathā</rdg>
+                        </app>bhūtasyāprāpteḥ. nāpi yathādhyavasāyam avisaṃvādaḥ; pītasyaiva
+                        viśiṣṭārthakriyākāritvenādhyavasāyāt, na ca tadrūpārthakriyāprāptir asti. na
+                        cānadhyavasitārthāvisaṃvādenāpi prāmāṇyam; atiprasaṅgāt. keśādijñāne 'pi hy
+                        anadhyavasitālokādiprāpteḥ.||1324 1325||</p>
+                  </div>
+                  <div xml:id="TSP1326">
+                     <p>atha manyase, yady api varṇo 'dhyavasito na prāpyate, saṃsthānaṃ tu prāpyata
+                        eva? ity ata āha, na varṇetyādi.</p>
+                     <lg xml:id="TS1326">
+                        <l>na varṇavyatiriktaṃ ca saṃsthānam upapadyate |</l>
+                        <l>bhāsamānasya varṇasya na ca saṃvāda <app>
+                              <lem source="#Śā">īkṣyate</lem>
+                              <rdg source="#Kri">iṣyate</rdg>
+                           </app> ||1326||</l>
+                     </lg>
+                     <p>subodham. ||1326|| </p>
+                  </div>
+                  <div xml:id="TSP1327_1328">
+                     <p>yady ākāram ityādinopacayam āha</p>
+                     <lg xml:id="TS1327">
+                        <l>yady ākāram anādṛtya prāmāṇyaṃ ca prakalpyate |</l>
+                        <l>arthakriyāvisaṃvādāt <q type="reference" source="#PS" n="1.9b"
+                              ana="authoritative">tadrūpo hy arthaniścayaḥ</q> ||1327||</l>
+                     </lg>
+                     <lg xml:id="TS1328">
+                        <l>ityādigaditaṃ sarvaṃ kathaṃ na vyāhataṃ bhavet |</l>
+                        <l>vāsanāpākahetūtthas tasmāt saṃvādasambhavaḥ ||1328||</l>
+                     </lg>
+                     <p>naiva hy arthakriyāvisaṃvāditvamātreṇākāram anapekṣya prāmāṇyaṃ, kalpanīyam;
+                        viṣayākārasyāprāmāṇyaprasaṅgāt. tadrūpa iti. jñānasthābhāsarūpaḥ.</p>
+                     <p>
+                        <seg>ādiśabdena <q type="quotation" source="#PSV" n="1.9'd"
+                              ana="authoritative">yathā yathā hy arthasyākāraḥ śubhrāditvena
+                              sanniviśate tadrūpaḥsa viṣayaḥ pramīyata</q> ityādikam <rs
+                              type="person" key="Dignāga" ana="authoritative">ācāryīyaṃ</rs> vacanaṃ
+                           virudhyata iti darśayati.</seg>
+                     </p>
+                     <p>arthakriyāsaṃvādas tu pūrvārthānubhavavāsanāparipākād eva pramāṇāntarād
+                        bhavatīty avaseyam. pītaśaṅkhajñānasya vāsanāparipākahetuḥ śukla eva
+                        śaṅkhaḥ; tadādhipatyena tat paripākāt. vāsanāparipākahetutaḥ samutthānaṃ
+                        yasyāvisaṃvād asya sa tathoktaḥ ||1327 1328||</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div type="topic" ana="#topic_sukhadisvasamvitti">
+            <head>sukhādisvasaṃvitti</head>
+            <div xml:id="TSP1329">
+               <p>sukhādīnāṃ kathaṃ saṃvedanapratyakṣatā? ity āha, mānasetyādi.</p>
+               <lg xml:id="TS1329">
+                  <l>mānasendriyavijñānanirvikalpatvasādhane |</l>
+                  <l>yo nyāyaḥ sa sukhādīnām avikalpatvasādhakaḥ ||1329||</l>
+               </lg>
+               <p><q source="#PV #PVin" n="PV:3.249 PVin:1.21" ana="authoritative" type="reference"
+                     >yo nyāya iti. aśakyasamayatvādiḥ.</q> mānasasya yady api nokto nyāyaḥ, tathāpi
+                  [p.396] ya indriyajñāne nyāyaḥ; aśakyasamayatvam, sa tasyāpi tulya eva. yad vā,
+                  yogijñānam iha mānasam, tac ca vakṣyamāṇam. siddhāntaprasiddhatvān mānasasyātra na
+                  lakṣaṇaṃ kṛtaṃ. pramāṇenābādhitatvam <rs type="person" key="Dignāga" cert="low"
+                     ana="authoritative">ācāryeṇa</rs> eva pratipāditam iti na pratipādyata iti
+                  bhāvaḥ. ||1329||</p>
+            </div>
+            <div type="vāda" xml:id="vāda_Vaiśeṣika_1330-1338" ana="#Vaiśeṣika">
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Vaiśeṣika_1330" ana="#Vaiśeṣika">
+                  <div xml:id="TSP1330">
+                     <p>avedakatā ityādinā <rs type="group" key="Vaiśeṣika" ana="critical"
+                           >vaiśeṣikamatam</rs> āśaṅkate.</p>
+                     <lg xml:id="TS1330">
+                        <l>avedakāḥ parasyāpi svavidbhājaḥ kathaṃ nu te |</l>
+                        <l>ekārthāśritavijñānavedyāstvete bhavanti cet ||1330||</l>
+                     </lg>
+                     <p>na kevalaṃ svasaṃvedanā na bhavanti, bāhyasyāpy arthasyāvedakāḥ. na
+                        jñānasvabhāvā iti yāvat. ekasminn ātmani samavetena tu jñānena vedyanta iti
+                           <rs type="group" key="Vaiśeṣika" ana="critical">teṣāṃ</rs> siddhāntaḥ.
+                        ||1330|| </p>
+                  </div>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Vaiśeṣika_1331-1338" ana="#Vaiśeṣika">
+                  <div xml:id="TSP1331_1332_1333_1334_1335_1336_1337_1338">
+                     <p>nairantaryetyādinā pratividhatte.</p>
+                     <q type="reference" source="#PV" n="3.255–265" ana="authoritative">
+                        <lg xml:id="TS1331">
+                           <l>nairantaryapravṛtte hi bāhyavastūpalambhane |</l>
+                           <l>sukhādi vedyate kasmāt tasmin kāle nirantaram ||1331||</l>
+                        </lg>
+                        <lg xml:id="TS1332">
+                           <l>mānasenaiva <app>
+                                 <lem source="#Śā">tad</lem>
+                                 <rdg source="#Kri">yad</rdg>
+                              </app> vedyam iṣyate cetasā na ca |</l>
+                           <l>tat kāle tasya sadbhāvaḥ kramajanmopavarṇanāt ||1332||</l>
+                        </lg>
+                        <lg xml:id="TS1333">
+                           <l>janmaiva yaugapadyena neṣyate na punaḥ sthitiḥ |</l>
+                           <l>iti cen na sthitis tasya kṣaṇabhaṅgaprasādhanāt ||1333||</l>
+                        </lg>
+                        <lg xml:id="TS1334">
+                           <l>āśuvṛtteḥ sakṛdbhranatir iti cet sāpy apākṛtā |</l>
+                           <l>vispaṣṭapratibhāso hi na syāt smaraṇagocare ||1334||</l>
+                        </lg>
+                        <lg xml:id="TS1335">
+                           <l>śātāśātādirūpā ca sā bhrāntir yadi kalpyate |</l>
+                           <l>tadā prāptā sukhādīnāṃ sattā tanmātralakṣaṇā ||1335||</l>
+                        </lg>
+                        <lg xml:id="TS1336">
+                           <l>yadā ca yogino 'nyeṣām adhyakṣeṇa sukhādikam |</l>
+                           <l>vidanti tulyānubhavāt tadūtte 'pi syur āturāḥ ||1336||</l>
+                        </lg>
+                     </q>
+                     <q type="reference" source="#PV" n="3.455–457ab" ana="authoritative">
+                        <lg xml:id="TS1337">
+                           <l>svasminn api hi duḥkhasya sattaivānubhavo na te |</l>
+                           <l>kiṃ tu tadviṣayaṃ jñānaṃ tac cāsti parasantatau ||1337||</l>
+                        </lg>
+                        <lg xml:id="TS1338">
+                           <l>paraduḥkhānumāne ca tulyam etat tathā hi tat |</l>
+                           <l><app>
+                                 <lem source="#Śā">ekaduḥkhādiviṣayaṃ</lem>
+                                 <rdg source="#Kri">anumānaṃ saviṣayaṃ</rdg>
+                              </app> varṇyate na tv agocaram ||1338||</l>
+                        </lg>
+                     </q>
+                     <p>anena pratijñāyāḥ pratyakṣaviruddhatām āha. <app>
+                           <lem source="#Śā">yato</lem>
+                           <rdg source="#Kri">yadā</rdg>
+                        </app> bāhyavastvavalambanajñānasamakālaṃ sukhādayo 'nubhūyante; tadā
+                        katamenaikārthāśrayiṇā jñānena vedyeran, na tāvat tenaiva bāhyālambanena
+                        [p.397] cakṣurādijñānena, tasya bāhyālambanatvāt, antaḥsaṃvedyamānatvāc ca
+                        sukhādīnāṃ mānasenaiva cetasā vedyatveneṣṭatvāt. na ca tasmin kāle mānasasya
+                        cetasaḥ sambhavaḥ, krameṇaiva jñānāny utpadyanta ity abhyupagamyate. athāpi
+                        syāt, janmaiva jñānānāṃ krameṇābhyupagatam, na sthitir iti? etac cāsamyak;
+                        sarvajanmināṃ kṣaṇikatvasya prasādhitatvāt. āśuvṛttyā sakṛdbhrāntir api yā,
+                        sāpāstaiva pūrvam.</p>
+                     <p>kiñ ca, āhlāda<app>
+                           <lem source="#Śā">partādirūpeṇa</lem>
+                           <rdg source="#Kri">paritāpirūpeṇa</rdg>
+                        </app> spaṣṭaḥ pratibhāso na prāpnoti; vikalpaviṣayatve sati sukhādīnāṃ
+                        mānasenaiva cetasā vedyatvenābhyupagamāt, tasya ca savikalpakatvāt. <q
+                           type="reference" source="#PV" n="3.283ab" ana="authoritative">na ca
+                           vikalpānubaddhasya sparṣṭārthapratibhāsitā.</q>
+                        <rs type="group" key="Bauddha">asmābhis</rs> tu <q source="#NB #PVin"
+                           n="NB:1.9 PVin:19,5-6" ana="authoritative" type="reference"
+                           >svaviṣayānantaraviṣayasahakāriṇendriyajñānena janitasyaiva
+                           pratyakṣatvenābhyupetatvāt.</q></p>
+                     <p>api ca, grāhyatve sati sukhādīnāṃ vicchinnapratibhāsitā syān nīlādivat. na
+                        ca jñānādvicchinnasya śātādirūpasyopalabdhiḥ. jñānābhedena śatādirūpasya
+                        grahaṇaṃ bhrāntir iti cet ? evaṃ tarhi siddhā sukhādīnāṃ sattā
+                        svasaṃvidrūpā; śātādirūpamātralakṣaṇatvāt sukhādīnām. tadrūpatā cej jñānasya
+                        siddhā, siddhā jñānasvabhāvāḥ sukhādayaḥ. vyatiriktānāṃ tv asiddhatvād
+                        bhrāntyasiddheḥ. śātetyanukūlā, tadviparītā tv aśātā. ādiśabdenopekṣā
+                        gṛhyate.</p>
+                     <p>yadi ca svasantānotpattilakṣaṇaiva <app>
+                           <lem source="#Śā">yā</lem>
+                           <rdg source="#Kri"/>
+                        </app> sukhādīnāṃ sattā sa eva teṣām anubhava iti nābhyupagamyate, kiṃ tu
+                        tadviṣayajñānotpattis tadā yogināṃ parakīyaṃ sukhādi gṛhṇatāṃ tadanubhavinām
+                        iva tulyāturāvasthā syāt. bhinnasantānavartitvān na tulyāvastheti na
+                        vaktavyam; na hi svasantānavartitvaṃ teṣām <app>
+                           <lem source="#Śā">anubhavo</lem>
+                           <rdg source="#Kri">anugamo</rdg>
+                        </app> 'bhyupagataḥ. kiṃ tarhi ? tadviṣayajñānotpattiḥ. sā ca
+                        parasantānagrāhiṇām apy astīti samānaḥ prasaṅgaḥ.</p>
+                     <p>athobhayam anubhave sukhādīnāṃ kāraṇamaṅgīkriyate ? tadā
+                        svasantānavartitvenānubhave siddhaṃ sukhādīnām ātmasaṃvedanam. evaṃ hi
+                        svasantānavartitvaṃ nimittaṃ parasantānavartibhyaś ca viśeṣakaṃ bhavati,
+                        yadi svasaṃvid rūpā bhavanti. yeṣāṃ tarhi na yoginaḥ siddhā <rs type="group"
+                           key="Mīmāṃsā" cert="medium" ana="critical">mīmāṃsakādīnām</rs>, teṣāṃ
+                        kathaṃ taiḥ prasaṅgaḥ ? ity āha, paretyādi. na hi <rs type="group"
+                           key="Bauddha" ana="affirmative">bauddhānām</rs> iva <rs type="group"
+                           key="Mīmāṃsā" ana="critical" cert="medium">pareṣām</rs> nirviṣayaṃ
+                        paramārthato 'numānam, tataś ca paraduḥkhānumāne tulyo 'nubhave 'numātur api
+                        syāt. ||1331 1338||</p>
+                  </div>
+               </div>
+            </div>
+            <div type="vāda" xml:id="vāda_Śaṅkarasvāmin_1339-1342" ana="#Śaṅkarasvāmin">
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Śaṅkarasvāmin_1339" ana="#Śaṅkarasvāmin">
+                  <div xml:id="TSP1339">
+                     <lg xml:id="TS1339">
+                        <l>sukhādīty eva gamyante sukhaduḥkhādayo na tu |</l>
+                        <l>jñānam ity eva gamyante tan na jñānaṃ ghaṭādivat ||1339||</l>
+                     </lg>
+                     <p>[p.398] <rs type="person" key="Śaṅkarasvāmin" ana="critical"
+                           >śaṅkarasvāmī</rs>
+                        <app>
+                           <lem source="#Śā">prāha</lem>
+                           <rdg source="#Kri">āha</rdg>
+                        </app>
+                        <seg><q type="quotation" source="unknown" who="#Śaṅkarasvāmin"
+                              ana="critical">na jñānasvabhāvāḥ sukhādayaḥ; jñānam ity
+                              avyapadeśyatvāt, ghaṭādivad</q> iti.</seg>||1339||</p>
+                  </div>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Śaṅkarasvāmin_1340-1342"
+                  ana="#Śaṅkarasvāmin">
+                  <div xml:id="TSP1340">
+                     <p>yady evam ityādinā dūṣaṇam āha</p>
+                     <lg xml:id="TS1340">
+                        <l>yady evaṃ samayānyatve jñānam ity api no gatiḥ |</l>
+                        <l>cetasy asti tataḥ prāptā tatrāpy ajñānatā tadā ||1340||</l>
+                     </lg>
+                     <p>yadi saṅketānyatvena svabhāvānyatvaṃ syāt, evaṃ sati yadā jñāne 'pi kaścid
+                        ajñānam iti samayaṃ kuryāt tadā jñānam ity api cetasi vyapadeśo nāstīti
+                        prāptā jñāne 'pyajñānatā bhāvataḥ ||1340||</p>
+                  </div>
+                  <div xml:id="TSP1341_1342">
+                     <lg xml:id="TS1341">
+                        <l>vyaktaṃ prakāśarūpatvān no ced evaṃ prasajyate |</l>
+                        <l>sukhaduḥkhādike tulyaṃ <app>
+                              <lem source="#Śā">nanu</lem>
+                              <rdg source="#Kri">tac ca</rdg>
+                           </app> sarvam idaṃ na kim ||1341||</l>
+                     </lg>
+                     <lg xml:id="TS1342">
+                        <l>bhutārthabhāvanodbhūtaṃ kalpanābhrāntivarjitam |</l>
+                        <l>vakṣyāmo yogivijñānaṃ sādhanaīr vimalair alam ||1342||</l>
+                     </lg>
+                     <p>atha prakāśātmakaṃ jñānaṃ spaṣṭam anubhūyata iti nājñānatā syāt ? evaṃ sati
+                        sukhādiṣv api sarvam etat samānam. hetuś cānenaiva vyabhicārīti na kiñcid
+                        etat. <app>
+                           <lem source="#Śā">taṃ</lem>
+                           <rdg source="#Kri"/>
+                        </app> vakṣyāma iti. <q type="internal" source="#TS">sarvajñasiddhau</q>
+                        ||1341 1342||</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div type="topic" ana="#topic_pramanaphala">
+            <head>pramāṇaphala</head>
+            <div xml:id="TSP1343">
+               <p>pramāṇaphalavipratipattinirākaraṇāy āha viṣayetyādi.</p>
+               <lg xml:id="TS1343">
+                  <l>viṣayādhigatiś cātra pramāṇaphalam iṣyate |</l>
+                  <l>svavittir vā pramāṇaṃ tu sārūpyaṃ yogyatāpi vā ||1343||</l>
+               </lg>
+               <p>bāhye 'the prameye viṣayādhigamaḥ pramāṇaphalam, sārūpyaṃ tu pramāṇam.
+                  svasaṃvittāv api satyāṃ yathākāram asya prathanāt. jñānātmani tu prameye
+                  svasaṃvittiḥ phalam, yogyatā pramāṇam. <q type="reference" source="#PS #PSV"
+                     n="PS:1.8cd PSV:3,23–4,1" ana="authoritative">savyāpārapratītatām upādāya
+                     jñānasyaiva</q> sā tādṛśī yogyatā, yena tad evātmānaṃ vedayate na ghaṭādaya iti
+                  yogyatayā karaṇabhūtayaivātmaprakāśakaṃ lakṣyate jñānam iti yogyatāyāḥ
+                  svasaṃvedane prāmāṇyam.</p>
+               <p><seg>tad uktam, <q type="quotation" source="#PV" n="3.365" ana="authoritative"
+                        >tatrāpy <app>
+                           <lem source="#Śā">anubhavātmatvāt</lem>
+                           <rdg source="#Kri">anubhayātmatvāt</rdg>
+                        </app> te yogyāḥ svātmasaṃvidaḥ. iti sā yogyatā mānam ātmā meyaḥ phalaṃ
+                        svavit ||</q> iti</seg> ||1343|| </p>
+            </div>
+            <div type="vāda" xml:id="vāda_Kumārila_1344-1351" ana="#Kumārila">
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Kumārila_1344" ana="#Kumārila">
+                  <div xml:id="TSP1344">
+                     <p>chedana ityādinā <rs type="person" key="Kumārila" ana="critical"
+                           >kaumārilacodyam</rs> āśaṅkate.</p>
+                     <lg xml:id="TS1344">
+                        <l>chedane khadiraprāpte palāśe na chidā yathā |</l>
+                        <l>tathaiva paraśor loke chidayā naikateti cet ||1344||</l>
+                     </lg>
+                     <p>[p.399] <seg><rs type="group" key="Bhinnapramāṇaphalavādin" ana="critical"
+                              >bhinnapramāṇaphalavādinaṃ</rs> prati <rs type="group" key="Bauddha"
+                              ana="critical">bauddhena</rs> uktam <q type="quotation"
+                              source="unknown" who="#Kumārila">yadi pramāṇaphalayor bhedo
+                              'bhyupagamyate tadā bhinnaviṣayatvaṃ syāt pramāṇaphalayoḥ, na caitad
+                              yuktam; na hi paraścādike chedane svadiraprāpte sati palāśe chedo
+                              bhavati. tasmāt pramāṇaphalayor ekaviṣayatvād abhedaḥ</q>
+                        iti.</seg></p>
+                     <p>
+                        <seg>atroktaṃ <rs type="person" key="Kumārila" ana="critical"
+                              >kumārilena</rs>, <q type="quotation" source="#ŚV" n="pratyakṣa_74"
+                              ana="critical">viṣayaikatvam icchaṃs tu yaḥ pramāṇaṃ phalaṃ vadet.
+                              sādhyasādhanayor bhedo laukikās tena bādhitaḥ ||</q>
+                           <q type="quotation" source="#ŚV" n="pratyakṣa_75" ana="critical">chedane
+                              khadiraprāpte na palāśe chidā yathā. tathaiva paraśor loke chidayā
+                              saha naikatā ||</q> iti.</seg>
+                     </p>
+                     <p>chedyate 'neneti chedanam. ||1344||</p>
+                  </div>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Kumārila_1345-1348" ana="#Kumārila">
+                  <div xml:id="TSP1345">
+                     <p>netyādinottaram āha.</p>
+                     <lg xml:id="TS1345">
+                        <l>
+                           <q type="reference" source="#PV" n="3.315'bcd" ana="authoritative">na
+                              vyavasthāśrayatvena sādhyasādhanasaṃsthitiḥ |</q>
+                        </l>
+                        <l>nirākāre tu vijñāne sā saṃsthā na hi yujyate ||1345||</l>
+                     </lg>
+                     <p>nīlāspadaṃ saṃvedanaṃ na pītasyeti viṣayāvagativyavasthāyā arthasārūpyam eva
+                        nibandhanam, nānyat, iti vyavasthāpakatvabhāvena sādhyasādhanavyavasthā,
+                        notpadyotpādakabhāvena; yasmān na pāramārthikaḥ kartṛkaraṇādibhāvo 'sti,
+                        kṣaṇikatvena <q source="#PSV" n="4,15" ana="authoritative" type="reference"
+                           >nirvyāpāratvāt sarvadharmāṇām.</q> jñānaṃ hi viṣayākāram utpadyamānaṃ
+                        viṣayaṃ paricchindad iva <q type="reference" source="#PV" n="3.308a"
+                           ana="authoritative">savyāpāram iv<app>
+                              <lem source="#Śā">āstīti</lem>
+                              <rdg source="#Kri">ābhāti</rdg>
+                           </app></q>. ayam evārthaprāpaṇavyāpāro jñānasya, na tv
+                        avinābhāvitvamātram. na hi bījādyavinābhāvino 'ṅkurādayo na bhavanti. yena
+                        jñānam eva pramāṇaṃ syāt. tasmāt sākāram eva jñānaṃ pramāṇam, na nirākāram,
+                        iti vyavasthayā pramāṇyena pradarśyate. vyavasthā ca tat pṛṣṭhalabdhena
+                        vikalpena veditavyā. ||1345||</p>
+                  </div>
+                  <div xml:id="TSP1346">
+                     <p>ata utprekṣita ityādinā lokaprasiddhyabādhām āha</p>
+                     <lg xml:id="TS1346">
+                        <l>ata utprekṣito bhedo vidyate dhanurādivat |</l>
+                        <l>utpādyotpādakatvena vyavastheyaṃ tu neṣyate ||1346||</l>
+                     </lg>
+                     <p>dhanurādivad iti. dhanur vidyati, dhanuṣā vidhyati, dhanuṣo niḥsṛtya śaro
+                        vidyatīti yaccaikasya dhanuṣaḥ kartṛtvādayaḥ kalpitā na virudhyante,
+                        tathehāpīti. ||1346||</p>
+                  </div>
+                  <div xml:id="TSP1347">
+                     <lg xml:id="TS1347">
+                        <l>viśliṣyamāṇasandhau ca dārvādau paraśucchidā |</l>
+                        <l>praviśannucyate tena tatraikatvamavasthitam ||1347||</l>
+                     </lg>
+                     <p>paraśunā ca vṛkṣādeś chidā nirūpyamāṇā
+                        chedyadravyānupraveśalakṣaṇaivāvatiṣṭhate sa cānupraveśaḥ paraśor ātmagata
+                        eva dharma iti paramārthataś chidayāsahaikatvam iti nāsti virodhaḥ.
+                        ||1347||</p>
+                  </div>
+                  <div xml:id="TSP1348">
+                     <p>[p.400] vyavasthāyām ityādinaitad darśayati.</p>
+                     <lg xml:id="TS1348">
+                        <l>vyavasthāyāṃ tu jātāyāṃ kalpyatām anyathāpi hi |</l>
+                        <l>utpādyotpādakatvena saṃsthānavidhir ucyate ||1348||</l>
+                     </lg>
+                     <p>yathā <rs type="person" key="Kumārila" ana="critical">kumārilena</rs>
+                        <q type="quotation" source="#ŚV" n="pratakaṣa_78" ana="critical"
+                           >paricchedaphalatvetyādinā</q> granthenotpādyotpādakabhāvena
+                        pramāṇaphalavyavasthā kṛtā, tathā <rs type="group" key="Bauddha"
+                           ana="affirmative">asmākam</rs> apy avirodhiny eva.</p>
+                     <p>
+                        <seg>yathoktam <rs type="person" key="Dignāga" cert="low"
+                              ana="authoritative">ācāryeṇa</rs>
+                           <q type="quotation" source="unknown" who="#Dignāga" cert="low"
+                              ana="authoritative">tatrāpi hi pratyakṣatvopacāro 'viruddhaś
+                              cakṣurādiṣu tat kāraṇeṣu</q> iti.</seg>
+                     </p>
+                     <p>etāvat tu brūmaḥ, avaśyam ādau vyavasthādvāreṇaiva sādhyasādhanasaṃsthā
+                        kartavyā, na hy avyavasthāpya saṃvidbhedaṃ viṣayabhedena niyamena pravṛttir
+                        yuktā, saṃvidbhedavyavasthāyāś ca sārūpyam eva nibandhanam iti
+                        sāmarthyāevāyātaṃ sārūpyasya sādhakatamatvam, sārūpyād eva ca jñānasya
+                        pravartakatvam. pravartakasya ca pramāṇatvaṃ pravṛttikāmena nirūpyate, na
+                        vyasanitayā.</p>
+                     <p>
+                        <seg>yathoktam, <q type="quotation" source="#HB" n="3, 6"
+                              ana="authoritative">arthakriyārthaṃ hi sarvaḥ pramāṇamapramāṇaṃ
+                              cānveṣate prekṣāvān</q>iti.</seg>
+                     </p>
+                     <p>yato yenaivāṃśena pravartakatvaṃ jñānasya bhavati sa eva darśanīyaḥ, na
+                        cotpādyotpādakabhāvena pramāṇaphalavyavasthāyāṃ pravartakāṃśaḥ sārūpyaṃ
+                        gamyate, tataś ca niṣphalam evotpādadvāreṇa pramāṇavyavasthānaṃ syāt. ata
+                           ev<rs type="person" key="Dignāga" cert="low" ana="authoritative"
+                           >ācāryeṇa</rs> etaddvāreṇa pramāṇavyavasthānaṃ na pravṛttyaṅgam iti
+                        matvaivopacāra āśritaḥ. tasmāj jātāyāṃ tu vyavasthāyāṃ sānyathāpy
+                        utpādyotpādakabhāvena kalpyatām. tathāpy adoṣa eveti ||1348||</p>
+                  </div>
+               </div>
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Kumārila_1349-1350" ana="#Kumārila">
+                  <div xml:id="TSP1349_1350">
+                     <p>paricchedetyādinā tad eva <rs type="person" key="Kumārila">kaumārilam</rs>
+                        phalavyavasthānaṃ darśayati.</p>
+                     <lg xml:id="TS1349">
+                        <l>paricchedaphalatvena <app>
+                              <lem source="#Śā">pravṛttasyāntarasya</lem>
+                              <rdg source="#Kri">vṛttasyānantarasya</rdg>
+                           </app> hi |</l>
+                        <l>kāraṇatvaṃ mataṃ jñāne pramāṇe tu phalaṃ param ||1349||</l>
+                     </lg>
+                     <lg xml:id="TS1350">
+                        <l>svasaṃvittiphalatvaṃ cenniṣedhānnaiva yujyate |</l>
+                        <l>māne ca viṣayākāre bhinnārthatvaṃ prasajyate ||1350||</l>
+                     </lg>
+                     <p>vṛttasyeti. pravṛttasya cakṣurāder ity arthaḥ. phalaṃ param iti
+                        hānopādānāpekṣābuddhilakṣaṇam. <seg>idam aparam uktaṃ <rs type="person"
+                              key="Kumārila" ana="critical">kumārilena</rs> eva, <q type="reference"
+                              source="#ŚV" n="śūnya_184" ana="critical">svasaṃvedanasya niṣedhāt
+                              tasya pramāṇaphalatvam ayuktam. viṣayākārasya ca prāmāṇye sati
+                              pramāṇaphalayor bhinnaviṣayatvaṃ prasajyate. tathā hi, viṣayākāro
+                              bāhyaviṣayaḥ svasaṃvedanaṃ tu jñānasvarūpaviṣayam</q> iti.</seg>
+                        ||1349 1350||</p>
+                  </div>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Kumārila_1351" ana="#Kumārila">
+                  <div xml:id="TSP1351">
+                     <p>[p.401] sarvetyādinā pratividhatte.</p>
+                     <lg xml:id="TS1351">
+                        <l>sarvāvittaprasaṅgena sā niṣeddhuṃ na śakyate |</l>
+                        <l>bhinnārthatvam na cehāsti svavid apy arthavin matā ||1351||</l>
+                     </lg>
+                     <p>
+                        <seg><q type="quotation" source="#PVin" n="1.54cd" ana="authoritative"
+                              >apratyakṣopalambhāya nārthadṛṣṭiḥ prasidhyati</q> iti.</seg>
+                     </p>
+                     <p>sarvārthāpratyakṣatvaprasaṅgān na śakyate svasaṃvittir niṣeddhum. nāpi
+                        bhinnaviṣayatvaprasaṅgo yuktaḥ; yataḥ svasaṃvittir apy arthasaṃvittir iṣṭā;
+                        tatkāryatvāt, na tu tanmayatvena. svasaṃvittis tu tādrūpyād iti na virodhaḥ.
+                        ||1351||</p>
+                  </div>
+               </div>
+            </div>
+            <div type="vāda" xml:id="vāda_Śaṅkarasvāmin_1352-1354" ana="#Śaṅkarasvāmin">
+               <div type="pūrvapakṣa" xml:id="pūrvapakṣa_Śaṅkarasvāmin_1352" ana="#Śaṅkarasvāmin">
+                  <p>svātiriktetyādinā <rs type="person" key="Śaṅkarasvāmin" ana="critical"
+                        >śaṅkarasvāmī</rs> pramāṇayati.</p>
+                  <lg xml:id="TS1352">
+                     <l>svātiriktakriyākāri pramāṇaṃ kārakatvataḥ |</l>
+                     <l>kāsyādivac ced vaiphalyam anyad dhy api phalaṃ matam ||1352||</l>
+                  </lg>
+               </div>
+               <div type="uttarapakṣa" xml:id="uttarapakṣa_Śaṅkarasvāmin_1353-1354"
+                  ana="#Śaṅkarasvāmin">
+                  <lg xml:id="TS1353">
+                     <l>uktanyāyena vāsyāder anyad asti phalaṃ na ca |</l>
+                     <l>kārakatvaṃ ca no siddhaṃ janakatvavivakṣayā ||1353||</l>
+                  </lg>
+                  <lg xml:id="TS1354">
+                     <l>sthāpakatvavivakṣāyāṃ na virodho 'sti kaścana |</l>
+                     <l>tenānaikāntiko hetur virodhāpratipādanāt ||1354||</l>
+                  </lg>
+                  <p>ātmavyatiriktakriyākāri pramāṇaṃ kārakatvāt, vāsyādivad iti. vaiphalyam
+                     ityādinā dūṣayati. viphalam; siddhasādhyatādosāt. yato 'nyad api janyaṃ phalaṃ
+                     paricchedetyādinā kathitam. hiśabdo hetau. "vāsyādivat" iti ca sādhyavikalo
+                     dṛṣṭāntaḥ; chidayā sahaikatvasya pratipāditatvāt. "kārakatvāt" iti ca
+                     janyajanakatvavivakṣāyām asiddho hetuḥ; sthāpakatvenaiveṣṭatvāt. sādhanasya
+                     sthāpakatvavivakṣāyām apy anaikāntikaḥ; virodhābhāvāt. sāmānyavivakṣāyām
+                     anaikāntika eva; virodhasyānupadarśitatvāt. ||1352 1353 1354||</p>
+               </div>
+            </div>
+            <div xml:id="TSP1355_1356">
+               <p>nanu ca yadi viṣayākāraṃ jñānaṃ syāt, tadā bhaved viṣayasārūpyasya prāmāṇyam;
+                  yāvatā grāhyaviṣayasamānākāraṃ samānasvabhāvaṃ jñānam upapadyate, naiva tathā,
+                  grāhyāj jātyantaratvād rūparasayor iva ? ity āha, grāhyetyādi.</p>
+               <lg xml:id="TS1355">
+                  <l>grāhyasādhāraṇākāraṃ tasmāj jātyantaratvataḥ |</l>
+                  <l>rasarūpādivaj jñānaṃ naiva ced upapadyate ||1355||</l>
+               </lg>
+               <lg xml:id="TS1356">
+                  <l>nyāyānusaraṇe sarvam asmābhir upavarṇitam |</l>
+                  <l>idam anyac ca vispaṣṭaṃ grāhyagrāhavivecane ||1356||</l>
+               </lg>
+               <p>[p.402] <rs type="group" key="Vijñānavādin" ana="affirmative"
+                     >vijñānavādanyāyānusāribhir asmābhir</rs> etad iṣṭam eveti na kiñcit kṣīyate.
+                  tathā hi, yat kiñcid idam aspaṣṭaṃ <rs type="person" key="Kumārila" ana="critical"
+                     >bhavatā</rs> grāhyadūṣaṇam abhihitam. idaṃ tu spaṣṭaṃ grāhyavivecanāya sādhanam
+                  abhidhīyate <rs type="group" key="Bauddha" ana="affirmative">asmābhiḥ</rs>. grāhye
+                  grahaḥ = abhiniveśaḥ; tasya vivecanam = apanayanam. ||1355 1356||</p>
+            </div>
+            <div xml:id="TSP1357">
+               <p>kiṃ tv aspaṣṭaṃ sādhanam ? ity āha, sarvetyādi.</p>
+               <lg xml:id="TS1357">
+                  <l>sarvātmanā hi sārūpye jñānam ajñānatāṃ vrajet |</l>
+                  <l>sāmyaṃ kenacid aṃśena sarvaṃ syāt sarvavedakam ||1357||</l>
+               </lg>
+               <p>yāvadbhyo vijātīyebhyo vyāvṛttaḥ, tādvadbhya eva jñānam apītīdaṃ sarvātmanā sārūpyam.
+                  katipayapadārthavyāvṛttitas tv aṃśena sārūpyam. ||1357|| </p>
+            </div>
+            <div xml:id="TSP1358_1359_1360">
+               <p>kathaṃ tarhyarthasārūpyasya prāmāṇyam uktam ? ity āha, kin tv ityādi.</p>
+               <lg xml:id="TS1358">
+                  <l>kin tu <rs type="group" key="Bāhyārthasadbhāvavādin" ana="neutral"
+                        >bāhyārthasadbhāvavāde</rs> sārūpyasambhavaḥ |</l>
+                  <l>dhruvam abhyupagantavya ityarthaṃ sa prakāśitaḥ ||1358||</l>
+               </lg>
+               <lg xml:id="TS1359">
+                  <l><rs type="group" key="Nirbhāsijñānapakṣa" ana="neutral">nirbhāsijñānapakṣe</rs>
+                     hi grāhyād bhede 'pi cetasaḥ |</l>
+                  <l>pratibimbasya tādrūpyād bhāktaṃ syād api vedanam ||1359||</l>
+               </lg>
+               <lg xml:id="TS1360">
+                  <l><rs type="group" key="unknown" ana="neutral">yena</rs> tv iṣṭaṃ na vijñānam
+                     arthasārūpyabhājanam |</l>
+                  <l><rs type="group" key="unknown" ana="neutral">tasyā</rs>yam api naivāsti prakāro
+                     bāhyavedane ||1360||</l>
+               </lg>
+               <p>sa iti sārūpyasambhavaḥ, ākāro vā. nirbhāsaḥ = viṣayasārūpyam, tad yasyāsti tan
+                  nirbhāsi. grāhyād iti bāhyādarthāt. pratibimbasyeti jñānākārasya. tādrūpyād iti
+                  viṣayasārūpyāt. bhāktam ity upacaritam. vedanam iti. arthasyeti śeṣaḥ. bhājanam =
+                  āśrayaḥ. viṣayavipratipattis tu sāmānyasya vastubhūtasya nirākaraṇād
+                  vastuviṣayatveneṣṭasya pratyakṣasya nānyaḥ svalakṣaṇād viṣayo 'stīti sāmarthyād
+                  upadarśitatvān na pṛthaṅnirākṛtā.</p>
+               <p><seg type="attribution"><rs type="group" key="Bauddha" cert="low">ye</rs> tv āhuḥ,
+                        <q type="reference" source="unknown" ana="critical">ayuktam evedaṃ
+                        pratyakṣalakṣaṇam, lakṣaṇaṃ hi pramāṇasya praṇīyate api nāma tena
+                        rūpeṇopalakṣya pramāṇaṃ tataḥ pareṣāṃ pravṛttiḥ syād iti, na tu vyasanitayā;
+                        na ca kalpanāpoḍhatvādinopalakṣitasyāpi pravartakatvaṃ nivartakatvaṃ vā
+                        samasti loke</q> iti ?</seg> tad asamyak; na hi svecchayā vastūnāṃ
+                  svabhāvavyavasthānaṃ kartuṃ labhyam, yenānyathā praṇīyeta lakṣaṇam; api tu
+                  yathāvasthitam eva vastusvarūpam anūdya <app>
+                     <lem source="#Śā">prasiddhasvabhāvam
+                        aprasiddhasvabhāvaviśeṣapratipipādayiṣayā</lem>
+                  </app> [p.403] lakṣaṇaṃ praṇayanti tadvidaḥ, yathā, pṛthivyāḥ <app>
+                     <lem source="#Śā">khaṣkhaṭatvam</lem>
+                     <rdg source="#Kri">karatvam?</rdg>
+                  </app>. anyathā hy asambhavitādoṣeṇa duṣṭaṃ syāt. na ca pratyakṣasya
+                  kalpanāpoḍhābhrāntatvābhyām anyallakṣaṇam upalakṣakam asti. tathā hi, tad
+                  avaśyabhrāntamaṅgīkartavyam; pramāṇatvāt. kalpanāpoḍhaṃ ca; sākṣāt
+                  svalakṣaṇaviṣayatvāt. svalakṣaṇasya cāśakyasamayatvena tat saṃvitter
+                  anabhijalpatvasya prasādhitatvāt. ato nyāyānuyātam eva lakṣaṇam eva tad ācakṣate
+                  kuśalāḥ.</p>
+               <p>na cāpy ato lakṣaṇāt prekṣāvatāṃ pravṛttinivṛttī na bhavataḥ. tathā hi,
+                  ghaṭotkṣepaṇasāmānyasaṅkhyādijñānasya pratyabhijñāpratyayasya ca tathā
+                  pītaśaṅkhādijñānasya <rs type="group" key="Vaiśeṣika" cert="medium" ana="critical"
+                     >paraiḥ</rs> pratyakṣatvenopakalpitasya yathāyogaṃ savikalpakatvena
+                  bhrāntatvena <app>
+                     <lem source="#Śā">cā</lem>
+                     <rdg source="#Kri">vā</rdg>
+                  </app>pratyakṣatvam avadhārya tadviṣayatvenopakalpitasya saṅkhyāder
+                  vastutvābhiniveśān nivartante. yac ca nirdeśyaṃ nīlādi svalakṣaṇaṃ tad eva
+                  vastvityavasāya tatra pravartante. yathā ca nirvikalpasyāpi pratyakṣasya
+                  pravartakatvam, tathā prāguktam eva.</p>
+               <p>yady evam, kalpanāpoḍhatvam evaikaṃ lakṣaṇaṃ kartuṃ yuktam, na tv abhrāntam iti.
+                  tathā hi, pravṛtteḥ prāgyadeva siddhaṃ rūpaṃ tadeva pravṛttikāmānāṃ lakṣaṇatvena
+                  praṇetuṃ yuktaṃ nāprasiddham asattulyatvāt tasya. na cābhrāntatvaniścayo
+                  'rthakriyāsaṃvādāt prāgasti na hy arvāgdarśanās tatkāryādhigamam antareṇa
+                  yathārthatāṃ jñānasya jñātumīśate teṣāṃ nityaṃ padārthaśakteḥ kāryānumeyatvāt.
+                  yathopadarśitārthaprāpaṇasāmarthyalakṣaṇatvāc ca yathārthatāyāḥ. na cottarakālaṃ
+                  yathārthatāvadhāraṇe 'pi sāphalyam asti tataḥ punar apravṛtteḥ. tad etad acodyam.
+                  tathā hi, keśoṇḍrakādibuddhīnām api prāmāṇyaprasaṅgān mā bhūd ativyāpitā
+                  lakṣaṇadoṣa ity ato 'vaśyakaraṇīyam abhrāntagrahaṇam ity uktam. yaś cāpi pravṛtteḥ
+                  prāganiścayaheturarvāgdarśitvam ucyate, so 'py anaikānta eva. ko hy atra
+                  pratibandho yadarvāg darśibhir na kvacit sāmarthyaṃ niścitavyam iti. evaṃ hi na
+                  kiñcit tair niśceyam iti prāptam. tataś cācetanatvam eva teṣām āyātam; yāvatā
+                  paśuśiśavo 'py abhyāsabalād udbhūtabhūtajñānavāsanāvṛttayaḥ "sukhasya sādhanam
+                  etat, etad asukhasya" iti pravṛtteḥ prāgapi niścitya prapātādi pariharantaḥ
+                  stanādi copādadānāḥ saṃdṛśyanta eva. tathā hi, abhūtam api bhāvayatāṃ
+                  kāmaśokabhayādyupaplutacetasāmanapekṣitasādharmyādismṛter abhyāsasya
+                  sphuṭapratibhāsasya jñānotpādanasāmarthyam upalabhyata eva.</p>
+               <p>yatra tu punar nābhyāsas tatra teṣāṃ kāryānumeyaiva śaktiḥ, na tu sarvatra. etena
+                  dhūmādiliṅganiścayo 'pi vyākhyātaḥ; yatas tatrāpi <app>
+                     <lem source="#Śā">tat</lem>
+                     <rdg source="#Kri">tadatat</rdg>
+                  </app>&gt;kāryasya dhūmādeḥ prakṛtyā parasparam atyantaviviktasvabhāvatvāt,
+                  tadvivekaniścayasya cābhyāsādihetutvāl liṅganiścayasambhavād ato
+                  nānumānapratikṣepaḥ.</p>
+               <p>[p.404] nanv ādyāyāṃ pravṛttau satyām abhyāsaḥ sidhyati, yāvatā saiva kathaṃ
+                  bhavatīti vaktavyam ? ucyate; saṃśayāt. saṃśayahetoḥ pratyakṣasya kathaṃ tatra
+                  prāmāṇyam iti cet ? niścayahetor api kathaṃ prāmāṇyam. avasāyotpādanād arthinas
+                  tatra pravartanād iti cet ? tad etat saṃśayahetor api tulyam. yady api tatra
+                  pratīyamānārthitārthakāraviparīto vyavasāyaḥ, tathāpi na tenākāreṇa tasya
+                  pratyakṣasya pravartakatvam, tathāvasitasyānarthitatvāt. nāpi nivartakatvam,
+                  pratīyamānaprārthitārthādhyavasāyahetutvenārthinaḥ pravartanāt. anyathā hi
+                  saṃśayahetoḥ pratyakṣād arthī na pravarteta, nāpi nivarteteti praptam, na caivaṃ
+                  bhavati, api tu, arthinām asambhāvitānarthodayānām arthitayāpravṛtter eva
+                  balīyastvam. anena cāṃśena niścayahetoḥ pratyakṣād asya na kaścid viśeṣaḥ. yatra
+                  tv ekāntena pratīyamānārthaviparītākārāvasāyahetutvam eva, avasāyānutpādakatvaṃ
+                  vā; tatra tasya sarvārthārthino 'pravartanād aprāmāṇyameveti yuktaṃ vaktuṃ
+                  nānyatrety alam ||1359 1360||</p>
+            </div>
+         </div>
+         <trailer>|| iti pratyakṣalakṣaṇaparīkṣā ||</trailer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: >-
+  Tattvasaṅgrahapañjikā chapter 17 (pratyakṣalakṣaṇaparīkṣā):
+  TEI-Encoded Reference Dataset
+message: >-
+  If you use this dataset or code, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Yulhui
+    family-names: Cho
+    email: yulhuicho@gmail.com
+    orcid: 'https://orcid.org/0009-0003-6000-9103'
+repository-code: 'https://github.com/yulhuicho/TSP-17-TEI'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21321381
+    description: Zenodo archive of the TEI XML and schema (this version)
+abstract: >-
+  A TEI/XML encoding of the 17th chapter of
+  Kamalaśīla's Tattvasaṅgrahapañjikā (kārikās 1212–1360),
+  with reproducible visualizations of the debate structure
+  and the text-reuse and mention network. Includes semantic annotations for
+  74 instances of text reuse (q elements) and 122 referring
+  strings (rs elements) for persons, groups, and works
+  (including pronominal substitutes), along with 17 registered
+  scholars, 12 philosophical schools, and 16 registered source
+  texts and manuscript witnesses (with an additional 2 secondary
+  scholarship entries). 64 app elements record variant
+  readings between the two editions. Includes four Jupyter notebooks reproducing
+  the figures used in the accompanying dissertation.
+keywords:
+  - TEI
+  - Digital Humanities
+  - Buddhist philosophy
+  - Sanskrit
+  - Tattvasaṅgraha
+  - pramāṇa
+  - Kamalaśīla
+  - Śāntarakṣita
+license: CC-BY-4.0
+version: 2.0.0
+date-released: '2026-07-12'
